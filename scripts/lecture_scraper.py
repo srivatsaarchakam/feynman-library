@@ -1,9 +1,15 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from sklearn.model_selection import train_test_split
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
+import requests
+import certifi
 import json
+import time
 import re
+import os
 
 # chrome webdriver setup
 service = Service('/System/Volumes/Data/Users/srivatsakrishnamurthy/Documents/chromedriver-mac-arm64/chromedriver')
@@ -11,6 +17,10 @@ driver = webdriver.Chrome(service=service)
 
 # main url where all of the content is coming from
 main_url = "https://www.feynmanlectures.caltech.edu"
+
+# directory to save images
+image_directory = '../data/images'
+os.makedirs(image_directory,exist_ok=True)
 
 # list of all chapters
 chapters = ["I_01", "I_02", "I_03", "I_04", "I_05", "I_06", "I_07", "I_08", "I_09", "I_10", "I_11", "I_12", "I_13", "I_14", "I_15", "I_16", "I_17", "I_18", "I_19", 
@@ -26,39 +36,53 @@ all_chapters_content = []
 for chapter in chapters:
     # construct URL for each chapter
     chapter_url = f"{main_url}/{chapter}.html"
-    print(f"Accessing {chapter_url}")  # Debug: print the URL being accessed
-
-    # use webdriver to navigate to the constructed url
+    print(f"Accessing {chapter_url}") 
     driver.get(chapter_url)
+
+    # wait for page & MathJax to finish loading/rendering
+    try:
+        WebDriverWait(driver, 10).until(
+            EC.visibility_of_element_located((By.CLASS_NAME, "div.main-content"))
+        )
+    except TimeoutException:
+        print("Waiting a bit longer just in case...")
+        time.sleep(5)
+
+    # scrape content in order
+    content_elements = []
+    elements = driver.find_elements(By.CSS_SELECTOR, 'div.para, img, span.math, span.MathJax' )
+
+    for i, element in enumerate(elements):
+        if element.tag_name == 'div' and 'para' in element.get_attribute('class'):
+            # scrape text from para
+            text = re.sub(r'\s+', '', element.text).strip()
+            content_elements.append({'type': 'text', 'data': text})
+
+        elif element.tag_name == 'img':
+            # download and save images
+            img_src = element.get_attribute('src')
+            if img_src and img_src.startswith('http'):
+                content_elements.append({'type': 'img', 'data': img_src})
+            elif img_src:
+                img_url = main_url + img_src
+                content_elements.append({'type': 'img', 'data': img_url})
+
+        elif 'math' in element.get_attribute('class') or 'MathJax' in element.get_attribute('class'):
+            # extract MathJax content
+            math_text = element.get_attribute('data-latex') or element.text
+            content_elements.append({'type': 'math', 'data': math_text})
+
     
-    # scrape chapter content
-    paragraphs = driver.find_elements(By.CSS_SELECTOR, 'div.para')
-
-    # join all paragraphs into one single one
-    chapter_text = ' '.join(para.text for para in paragraphs)
-
-    # replace multiple blank spaces with one
-    chapter_text = re.sub(r'\s+', ' ', chapter_text).strip()  
-
-    # chapter data formated into "input:" & "output:"
+    # structure chapters
     formatted_chapter_data = {
         'input': chapter,
-        'output': chapter_text
+        'output': content_elements
     }
-
     all_chapters_content.append(formatted_chapter_data)
 
-# close browser after scraping
-driver.quit()
+    # close chromium
+    driver.quit()
 
-# data split for training and testing
-train_data, test_data = train_test_split(all_chapters_content, test_size=0.2, random_state=42)
-
-# save training in training file
-with open('feynman_lectures_training_data.json', 'w') as f:
-    json.dump(train_data, f, indent=4)
-
-# save testing in testing file
-with open('feynman_lecture_testing_data.json', 'w') as f:
-    json.dump(test_data, f, indent=4)
-
+    # save data
+    with open ('feynman_lectures_data.json', 'w') as f:
+        json.dump(all_chapters_content, f, indent=4)
