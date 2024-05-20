@@ -32,16 +32,10 @@ if response.status_code == 200:
             section_text = ' ' .join(content)
             data.append({'input': header.get_text(' ', strip = True).split('[')[0].strip(), 'output': section_text})
 
-    # split the data into training and testing
-    train_data, test_data = train_test_split(data, test_size=0.2, random_state=42)
 
     # saving data to json files
-    with open('training_wiki_data.json', 'w', encoding='utf-8') as f:
-        json.dump(train_data, f, ensure_ascii=False, indent=4)
-    with open ('testing_wiki_data.json', 'w', encoding='utf-8',) as f:
-        json.dump(test_data, f , ensure_ascii=False, indent=4 )
-
-    print("The data has been split into training and testing sets and saved to json files")
+    with open('wiki_data.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=4)
 
 else:
     print("Failed to fecth the page. Status code:", response.status_code)
