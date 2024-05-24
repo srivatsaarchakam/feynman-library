@@ -1,7 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 import json
-from sklearn.model_selection import train_test_split
 
 url = "https://en.wikipedia.org/wiki/Richard_Feynman"
 
