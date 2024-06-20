@@ -1,4 +1,4 @@
-# feynman-lib
+# feynman-library
 focused on fine-tuning a large language model based on Richard Feynman
 
 status: chapter 1 data formatted
