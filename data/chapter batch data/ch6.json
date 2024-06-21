@@ -1,0 +1,271 @@
+[
+    {
+        "input": "I_06",
+        "output": [
+            {
+                "type": "text",
+                "data": "\u201cThe true logic of this world is in the calculus of probabilities.\u201d\n\u2014James Clerk Maxwell"
+            },
+            {
+                "type": "text",
+                "data": "\u201cChance\u201d is a word which is in common use in everyday living. The radio reports speaking of tomorrow\u2019s weather may say: \u201cThere is a sixty percent chance of rain.\u201d You might say: \u201cThere is a small chance that I shall live to be one hundred years old.\u201d Scientists also use the word chance. A seismologist may be interested in the question: \u201cWhat is the chance that there will be an earthquake of a certain size in Southern California next year?\u201d A physicist might ask the question: \u201cWhat is the chance that a particular geiger counter will register twenty counts in the next ten seconds?\u201d A politician or statesman might be interested in the question: \u201cWhat is the chance that there will be a nuclear war within the next ten years?\u201d You may be interested in the chance that you will learn something from this chapter."
+            },
+            {
+                "type": "text",
+                "data": "By chance, we mean something like a guess. Why do we make guesses? We make guesses when we wish to make a judgment but have incomplete information or uncertain knowledge. We want to make a guess as to what things are, or what things are likely to happen. Often we wish to make a guess because we have to make a decision. For example: Shall I take my raincoat with me tomorrow? For what earth movement should I design a new building? Shall I build myself a fallout shelter? Shall I change my stand in international negotiations? Shall I go to class today?"
+            },
+            {
+                "type": "text",
+                "data": "Sometimes we make guesses because we wish, with our limited knowledge, to say as much as we can about some situation. Really, any generalization is in the nature of a guess. Any physical theory is a kind of guesswork. There are good guesses and there are bad guesses. The theory of probability is a system for making better guesses. The language of probability allows us to speak quantitatively about some situation which may be highly variable, but which does have some consistent average behavior."
+            },
+            {
+                "type": "text",
+                "data": "Let us consider the flipping of a coin. If the toss\u2014and the coin\u2014are \u201chonest,\u201d we have no way of knowing what to expect for the outcome of any particular toss. Yet we would feel that in a large number of tosses there should be about equal numbers of heads and tails. We say: \u201cThe probability that a toss will land heads is \n0.5\n.\u201d"
+            },
+            {
+                "type": "text",
+                "data": "We speak of probability only for observations that we contemplate being made in the future. By the \u201cprobability\u201d of a particular outcome of an observation we mean our estimate for the most likely fraction of a number of repeated observations that will yield that particular outcome. If we imagine repeating an observation\u2014such as looking at a freshly tossed coin\u2014\nN\n times, and if we call\nN\nA\nour estimate of the most likely number of our observations that will give some specified result \nA\n, say the result \u201cheads,\u201d then by \nP(A)\n, the probability of observing \nA\n, we mean\nP(A)=\nN\nA\n/N.\n(6.1)"
+            },
+            {
+                "type": "text",
+                "data": "Our definition requires several comments. First of all, we may speak of a probability of something happening only if the occurrence is a possible outcome of some repeatable observation. It is not clear that it would make any sense to ask: \u201cWhat is the probability that there is a ghost in that house?\u201d"
+            },
+            {
+                "type": "text",
+                "data": "You may object that no situation is exactly repeatable. That is right. Every different observation must at least be at a different time or place. All we can say is that the \u201crepeated\u201d observations should, for our intended purposes, appear to be equivalent. We should assume, at least, that each observation was made from an equivalently prepared situation, and especially with the same degree of ignorance at the start. (If we sneak a look at an opponent\u2019s hand in a card game, our estimate of our chances of winning are different than if we do not!)"
+            },
+            {
+                "type": "text",
+                "data": "We should emphasize that\nN\nand \nN\nA\nin Eq. (6.1) are not intended to represent numbers based on actual observations.\nN\nA\nis our best estimate of what would occur in \nN\nimagined observations. Probability depends, therefore, on our knowledge and on our ability to make estimates. In effect, on our common sense! Fortunately, there is a certain amount of agreement in the common sense of many things, so that different people will make the same estimate. Probabilities need not, however, be \u201cabsolute\u201d numbers. Since they depend on our ignorance, they may become different if our knowledge changes."
+            },
+            {
+                "type": "text",
+                "data": "You may have noticed another rather \u201csubjective\u201d aspect of our definition of probability. We have referred to \nN\nA\nas \u201cour estimate of the most likely number \u2026\u201d We do not mean that we expect to observe exactly \nN\nA\n, but that we expect a number near \nN\nA\n, and that the number \nN\nA\nis more likely than any other number in the vicinity. If we toss a coin, say,\n30\n times, we should expect that the number of heads would not be very likely to be exactly \n15\n, but rather only some number near to \n15\n, say\n12\n, \n13\n,\n14\n,\n15\n,\n16\n, or \n17\n. However, if we must choose, we would decide that\n15\n heads is more likely than any other number. We would write \nP(heads)=0.5\n."
+            },
+            {
+                "type": "text",
+                "data": "Why did we choose \n15\nas more likely than any other number? We must have argued with ourselves in the following manner: If the most likely number of heads is \nN\nH\nin a total number of tosses \nN\n, then the most likely number of tails \nN\nT\nis \n(N\u2212\nN\nH\n)\n. (We are assuming that every toss gives either heads or tails, and no \u201cother\u201d result!) But if the coin is \u201chonest,\u201d there is no preference for heads or tails. Until we have some reason to think the coin (or toss) is dishonest, we must give equal likelihoods for heads and tails. So we must set \nN\nT\n=\nN\nH\n. It follows that \nN\nT\n=\nN\nH\n=\nN/2\n, or \nP(H)=\nP(T)=\n0.5\n."
+            },
+            {
+                "type": "text",
+                "data": "We can generalize our reasoning to any situation in which there are\nm\n different but \u201cequivalent\u201d (that is, equally likely) possible results of an observation. If an observation can yield\nm\n different results, and we have reason to believe that any one of them is as likely as any other, then the probability of a particular outcome\nA\nis \nP(A)=1/m\n."
+            },
+            {
+                "type": "text",
+                "data": "If there are seven different-colored balls in an opaque box and we pick one out \u201cat random\u201d (that is, without looking), the probability of getting a ball of a particular color is\n1\n7\n. The probability that a \u201cblind draw\u201d from a shuffled deck of\n52\ncards will show the ten of hearts is\n1\n52\n. The probability of throwing a double-one with dice is\n1\n36\n."
+            },
+            {
+                "type": "text",
+                "data": "In Chapter 5 we described the size of a nucleus in terms of its apparent area, or \u201ccross section.\u201d When we did so we were really talking about probabilities. When we shoot a high-energy particle at a thin slab of material, there is some chance that it will pass right through and some chance that it will hit a nucleus. (Since the nucleus is so small that we cannot see it, we cannot aim right at a nucleus. We must \u201cshoot blind.\u201d) If there are\nn\n atoms in our slab and the nucleus of each atom has a cross-sectional area \n\u03c3\n, then the total area \u201cshadowed\u201d by the nuclei is \nn\u03c3\n. In a large number \nN\nof random shots, we expect that the number of hits \nN\nC\nof some nucleus will be in the ratio to \nN\nas the shadowed area is to the total area of the slab:\nN\nC\n/N=n\u03c3/A.\n(6.2)\nWe may say, therefore, that the probability that any one projectile particle will suffer a collision in passing through the slab is\nP\nC\n=\nn\nA\n\u03c3,\n(6.3)\nwhere\nn/A\nis the number of atoms per unit area in our slab."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-01/f06-01_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "We would like now to use our ideas about probability to consider in some greater detail the question: \u201cHow many heads do I really expect to get if I toss a coin\nN\n times?\u201d Before answering the question, however, let us look at what does happen in such an \u201cexperiment.\u201d Figure 6\u20131 shows the results obtained in the first three \u201cruns\u201d of such an experiment in which \nN=30\n. The sequences of \u201cheads\u201d and \u201ctails\u201d are shown just as they were obtained. The first game gave\n11\n heads; the second also \n11\n; the third \n16\n. In three trials we did not once get\n15\n heads. Should we begin to suspect the coin? Or were we wrong in thinking that the most likely number of \u201cheads\u201d in such a game is \n15\n? Ninety-seven more runs were made to obtain a total of\n100\n experiments of\n30\n tosses each. The results of the experiments are given in Table 6\u20131.1"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/right_curly_brace.svgz"
+            },
+            {
+                "type": "text",
+                "data": "Looking at the numbers in Table 6\u20131, we see that most of the results are \u201cnear\u201d \n15\n, in that they are between\n12\nand \n18\n. We can get a better feeling for the details of these results if we plot a graph of the distribution of the results. We count the number of games in which a score of \nk\nwas obtained, and plot this number for each \nk\n. Such a graph is shown in Fig. 6\u20132. A score of\n15\n heads was obtained in\n13\n games. A score of\n14\n heads was also obtained\n13\n times. Scores of\n16\nand \n17\nwere each obtained more than\n13\n times. Are we to conclude that there is some bias toward heads? Was our \u201cbest estimate\u201d not good enough? Should we conclude now that the \u201cmost likely\u201d score for a run of\n30\n tosses is really\n16\n heads? But wait! In all the games taken together, there were\n3000\n tosses. And the total number of heads obtained was \n1493\n. The fraction of tosses that gave heads is \n0.498\n, very nearly, but slightly less than half. We should certainly not assume that the probability of throwing heads is greater than \n0.5\n! The fact that one particular set of observations gave\n16\n heads most often, is a fluctuation. We still expect that the most likely number of heads is \n15\n."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-02/f06-02_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "We may ask the question: \u201cWhat is the probability that a game of\n30\n tosses will yield\n15\n heads\u2014or \n16\n, or any other number?\u201d We have said that in a game of one toss, the probability of obtaining one head is \n0.5\n, and the probability of obtaining no head is \n0.5\n. In a game of two tosses there are four possible outcomes:\nHH\n, \nHT\n,\nTH\n, \nTT\n. Since each of these sequences is equally likely, we conclude that (a) the probability of a score of two heads is \n1\n4\n, (b) the probability of a score of one head is \n2\n4\n, (c) the probability of a zero score is \n1\n4\n. There are two ways of obtaining one head, but only one of obtaining either zero or two heads."
+            },
+            {
+                "type": "text",
+                "data": "Consider now a game of\n3\n tosses. The third toss is equally likely to be heads or tails. There is only one way to obtain\n3\n heads: we must have obtained\n2\n heads on the first two tosses, and then heads on the last. There are, however, three ways of obtaining\n2\n heads. We could throw tails after having thrown two heads (one way) or we could throw heads after throwing only one head in the first two tosses (two ways). So for scores of\n3\n-\nH\n, \n2\n-\nH\n,\n1\n-\nH\n, \n0\n-\nH\nwe have that the number of equally likely ways is\n1\n, \n3\n,\n3\n, \n1\n, with a total of\n8\n different possible sequences. The probabilities are\n1\n8\n,\n3\n8\n,\n3\n8\n,\n1\n8\n."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-03/f06-03_tc_big.svgz"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-04/f06-04_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "The argument we have been making can be summarized by a diagram like that in Fig. 6\u20133. It is clear how the diagram should be continued for games with a larger number of tosses. Figure 6\u20134 shows such a diagram for a game of\n6\n tosses. The number of \u201cways\u201d to any point on the diagram is just the number of different \u201cpaths\u201d (sequences of heads and tails) which can be taken from the starting point. The vertical position gives us the total number of heads thrown. The set of numbers which appears in such a diagram is known as Pascal\u2019s triangle. The numbers are also known as the binomial coefficients, because they also appear in the expansion of \n(a+b\n)\nn\n. If we call\nn\nthe number of tosses and\nk\nthe number of heads thrown, then the numbers in the diagram are usually designated by the symbol \n(\nn\nk\n)\n(\n. We may remark in passing that the binomial coefficients can also be computed from\n(\nn\nk\n)=\nn!\nk!(n\u2212k)!\n,\n(6.4)\nwhere\nn!\n, called \u201c\nn\n-factorial,\u201d represents the product \n(n)(n\u22121)(n\u22122)\u22ef(3)(2)(1)\n."
+            },
+            {
+                "type": "text",
+                "data": "We are now ready to compute the probability \nP(k,n)\nof throwing\nk\n heads in\nn\n tosses, using our definition Eq. (6.1). The total number of possible sequences is \n2\nn\n(since there are\n2\n outcomes for each toss), and the number of ways of obtaining\nk\n heads is \n(\nn\nk\n)\n(\n, all equally likely, so we have\nP(k,n)=\n(\nn\nk\n)\n2\nn\n.\n(6.5)"
+            },
+            {
+                "type": "text",
+                "data": "Since\nP(k,n)\nis the fraction of games which we expect to yield\nk\n heads, then in\n100\n games we should expect to find\nk\n heads\n100\u22c5P(k,n)\n times. The dashed curve in Fig. 6\u20132 passes through the points computed from \n100\u22c5P(k,30)\n. We see that we expect to obtain a score of\n15\n heads in\n14\nor\n15\n games, whereas this score was observed in\n13\n games. We expect a score of \n16\nin\n13\nor\n14\n games, but we obtained that score in\n15\n games. Such fluctuations are \u201cpart of the game.\u201d"
+            },
+            {
+                "type": "text",
+                "data": "The method we have just used can be applied to the most general situation in which there are only two possible outcomes of a single observation. Let us designate the two outcomes by \nW\n(for \u201cwin\u201d) and \nL\n(for \u201close\u201d). In the general case, the probability of\nW\nor \nL\nin a single event need not be equal. Let\np\nbe the probability of obtaining the result \nW\n. Then\nq\n, the probability of \nL\n, is necessarily \n(1\u2212p)\n. In a set of\nn\n trials, the probability \nP(k,n)\nthat\nW\nwill be obtained\nk\n times is\nP(k,n)=(\nn\nk\n)\np\nk\nq\nn\u2212k\n.\n(6.6)\nThis probability function is called the Bernoulli or, also, the binomial probability."
+            },
+            {
+                "type": "text",
+                "data": "There is another interesting problem in which the idea of probability is required. It is the problem of the \u201crandom walk.\u201d In its simplest version, we imagine a \u201cgame\u201d in which a \u201cplayer\u201d starts at the point \nx=0\nand at each \u201cmove\u201d is required to take a step either forward (toward \n+x\n) or backward (toward \n\u2212x\n). The choice is to be made randomly, determined, for example, by the toss of a coin. How shall we describe the resulting motion? In its general form the problem is related to the motion of atoms (or other particles) in a gas\u2014called Brownian motion\u2014and also to the combination of errors in measurements. You will see that the random-walk problem is closely related to the coin-tossing problem we have already discussed."
+            },
+            {
+                "type": "text",
+                "data": "First, let us look at a few examples of a random walk. We may characterize the walker\u2019s progress by the net distance \nD\nN\ntraveled in\nN\n steps. We show in the graph of Fig. 6\u20135 three examples of the path of a random walker. (We have used for the random sequence of choices the results of the coin tosses shown in Fig. 6\u20131.)"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-05/f06-05_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "What can we say about such a motion? We might first ask: \u201cHow far does he get on the average?\u201d We must expect that his average progress will be zero, since he is equally likely to go either forward or backward. But we have the feeling that as \nN\nincreases, he is more likely to have strayed farther from the starting point. We might, therefore, ask what is his average distance travelled in absolute value, that is, what is the average of \n|D|\n. It is, however, more convenient to deal with another measure of \u201cprogress,\u201d the square of the distance:\nD\n2\nis positive for either positive or negative motion, and is therefore a reasonable measure of such random wandering."
+            },
+            {
+                "type": "text",
+                "data": "We can show that the expected value of \nD\n2\nN\nis just \nN\n, the number of steps taken. By \u201cexpected value\u201d we mean the probable value (our best guess), which we can think of as the expected average behavior in many repeated sequences. We represent such an expected value by \n\u27e8\nD\n2\nN\n\u27e9\n, and may refer to it also as the \u201cmean square distance.\u201d After one step,\nD\n2\nis always \n+1\n, so we have certainly \n\u27e8\nD\n2\n1\n\u27e9=1\n. (All distances will be measured in terms of a unit of one step. We shall not continue to write the units of distance.)"
+            },
+            {
+                "type": "text",
+                "data": "The expected value of \nD\n2\nN\nfor \nN>1\ncan be obtained from \nD\nN\u22121\n. If, after\n(N\u22121)\n steps, we have\nD\nN\u22121\n, then after\nN\n steps we have\nD\nN\n=\nD\nN\u22121\n+1\nor \nD\nN\n=\nD\nN\u22121\n\u22121\n. For the squares,\nD\n2\nN\n=\n\u23a7\n\u23a9\n\u23a8\n\u23aa\n\u23aa\n\u23aa\n\u23aa\n\u23aa\n\u23aa\n\u23aa\n\u23aa\nD\n2\nN\u22121\n+2\nD\nN\u22121\n+1,\nor\nD\n2\nN\u22121\n\u22122\nD\nN\u22121\n+1.\n(6.7)\nIn a number of independent sequences, we expect to obtain each value one-half of the time, so our average expectation is just the average of the two possible values. The expected value of \nD\n2\nN\nis then\nD\n2\nN\u22121\n+1\n. In general, we should expect for \nD\n2\nN\u22121\nits \u201cexpected value\u201d \n\u27e8\nD\n2\nN\u22121\n\u27e9\n(by definition!). So\n\u27e8\nD\n2\nN\n\u27e9=\u27e8\nD\n2\nN\u22121\n\u27e9+1.\n(6.8)"
+            },
+            {
+                "type": "text",
+                "data": "We have already shown that \n\u27e8\nD\n2\n1\n\u27e9=1\n; it follows then that\n\u27e8\nD\n2\nN\n\u27e9=N,\n(6.9)\na particularly simple result!"
+            },
+            {
+                "type": "text",
+                "data": "If we wish a number like a distance, rather than a distance squared, to represent the \u201cprogress made away from the origin\u201d in a random walk, we can use the \u201croot-mean-square distance\u201d \nD\nrms\n:\nD\nrms\n=\n\u27e8\nD\n2\n\u27e9\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n=\nN\n\u2212\n\u2212\n\u221a\n.\n(6.10)"
+            },
+            {
+                "type": "text",
+                "data": "We have pointed out that the random walk is closely similar in its mathematics to the coin-tossing game we considered at the beginning of the chapter. If we imagine the direction of each step to be in correspondence with the appearance of heads or tails in a coin toss, then\nD\nis just \nN\nH\n\u2212\nN\nT\n, the difference in the number of heads and tails. Since\nN\nH\n+\nN\nT\n=N\n, the total number of steps (and tosses), we have\nD=2\nN\nH\n\u2212N\n. We have derived earlier an expression for the expected distribution of \nN\nH\n(also called \nk\n) and obtained the result of Eq. (6.5). Since\nN\nis just a constant, we have the corresponding distribution for \nD\n. (Since for every head more than\nN/2\nthere is a tail \u201cmissing,\u201d we have the factor of \n2\nbetween\nN\nH\nand \nD\n.) The graph of Fig. 6\u20132 represents the distribution of distances we might get in\n30\n random steps (where\nk=15\nis to be read\nD=0\n;\nk=16\n,\nD=2\n; etc.)."
+            },
+            {
+                "type": "text",
+                "data": "The variation of\nN\nH\nfrom its expected value\nN/2\nis\nN\nH\n\u2212\nN\n2\n=\nD\n2\n.\n(6.11)\nThe rms deviation is\n(\nN\nH\n\u2212\nN\n2\n)\nrms\n=\n1\n2\nN\n\u2212\n\u2212\n\u221a\n.\n(6.12)"
+            },
+            {
+                "type": "text",
+                "data": "According to our result for\nD\nrms\n, we expect that the \u201ctypical\u201d distance in\n30\n steps ought to be \n30\n\u2212\n\u2212\n\u221a\n\u22485.5\n, or a typical \nk\nshould be about\n5.5/2=2.75\n units from \n15\n. We see that the \u201cwidth\u201d of the curve in Fig. 6\u20132, measured from the center, is just about\n3\n units, in agreement with this result."
+            },
+            {
+                "type": "text",
+                "data": "We are now in a position to consider a question we have avoided until now. How shall we tell whether a coin is \u201chonest\u201d or \u201cloaded\u201d? We can give now at least a partial answer. For an honest coin, we expect the fraction of the times heads appears to be \n0.5\n, that is,\n\u27e8\nN\nH\n\u27e9\nN\n=0.5.\n(6.13)\nWe also expect an actual\nN\nH\nto deviate from \nN/2\nby about\nN\n\u2212\n\u2212\n\u221a\n/2\n, or the fraction to deviate by\n1\nN\nN\n\u2212\n\u2212\n\u221a\n2\n=\n1\n2\nN\n\u2212\n\u2212\n\u221a\n.\nThe larger\nN\nis, the closer we expect the fraction \nN\nH\n/N\nto be to one-half."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-06/f06-06_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "In Fig. 6\u20136 we have plotted the fraction \nN\nH\n/N\nfor the coin tosses reported earlier in this chapter. We see the tendency for the fraction of heads to approach \n0.5\nfor large \nN\n. Unfortunately, for any given run or combination of runs there is no guarantee that the observed deviation will be even near the expected deviation. There is always the finite chance that a large fluctuation\u2014a long string of heads or tails\u2014will give an arbitrarily large deviation. All we can say is that if the deviation is near the expected \n1/2\nN\n\u2212\n\u2212\n\u221a\n(say within a factor of\n2\nor \n3\n), we have no reason to suspect the honesty of the coin. If it is much larger, we may be suspicious, but cannot prove, that the coin is loaded (or that the tosser is clever!)."
+            },
+            {
+                "type": "text",
+                "data": "We have also not considered how we should treat the case of a \u201ccoin\u201d or some similar \u201cchancy\u201d object (say a stone that always lands in either of two positions) that we have good reason to believe should have a different probability for heads and tails. We have defined \nP(H)=\u27e8\nN\nH\n\u27e9/N\n. How shall we know what to expect for \nN\nH\n? In some cases, the best we can do is to observe the number of heads obtained in large numbers of tosses. For want of anything better, we must set \n\u27e8\nN\nH\n\u27e9=\nN\nH\n(observed)\n. (How could we expect anything else?) We must understand, however, that in such a case a different experiment, or a different observer, might conclude that\nP(H)\nwas different. We would expect, however, that the various answers should agree within the deviation \n1/2\nN\n\u2212\n\u2212\n\u221a\n[if\nP(H)\nis near one-half]. An experimental physicist usually says that an \u201cexperimentally determined\u201d probability has an \u201cerror,\u201d and writes\nP(H)=\nN\nH\nN\n\u00b1\n1\n2\nN\n\u2212\n\u2212\n\u221a\n.\n(6.14)\nThere is an implication in such an expression that there is a \u201ctrue\u201d or \u201ccorrect\u201d probability which could be computed if we knew enough, and that the observation may be in \u201cerror\u201d due to a fluctuation. There is, however, no way to make such thinking logically consistent. It is probably better to realize that the probability concept is in a sense subjective, that it is always based on uncertain knowledge, and that its quantitative evaluation is subject to change as we obtain more information."
+            },
+            {
+                "type": "text",
+                "data": "Let us return now to the random walk and consider a modification of it. Suppose that in addition to a random choice of the direction (\n+\nor \n\u2212\n) of each step, the length of each step also varied in some unpredictable way, the only condition being that on the average the step length was one unit. This case is more representative of something like the thermal motion of a molecule in a gas. If we call the length of a step \nS\n, then\nS\nmay have any value at all, but most often will be \u201cnear\u201d \n1\n. To be specific, we shall let \n\u27e8\nS\n2\n\u27e9=1\nor, equivalently,\nS\nrms\n=1\n. Our derivation for \n\u27e8\nD\n2\n\u27e9\nwould proceed as before except that Eq. (6.8) would be changed now to read\n\u27e8\nD\n2\nN\n\u27e9=\u27e8\nD\n2\nN\u22121\n\u27e9+\u27e8\nS\n2\n\u27e9=\u27e8\nD\n2\nN\u22121\n\u27e9+1.\n(6.15)\nWe have, as before, that\n\u27e8\nD\n2\nN\n\u27e9=N.\n(6.16)"
+            },
+            {
+                "type": "text",
+                "data": "What would we expect now for the distribution of distances \nD\n? What is, for example, the probability that\nD=0\nafter\n30\n steps? The answer is zero! The probability is zero that\nD\nwill be any particular value, since there is no chance at all that the sum of the backward steps (of varying lengths) would exactly equal the sum of forward steps. We cannot plot a graph like that of Fig. 6\u20132."
+            },
+            {
+                "type": "text",
+                "data": "We can, however, obtain a representation similar to that of Fig. 6\u20132, if we ask, not what is the probability of obtaining \nD\nexactly equal to\n0\n, \n1\n, or \n2\n, but instead what is the probability of obtaining \nD\nnear\n0\n, \n1\n, or \n2\n. Let us define \nP(x,\u0394x)\nas the probability that\nD\nwill lie in the interval \n\u0394x\nlocated at \nx\n(say from\nx\nto \nx+\u0394x\n). We expect that for small \n\u0394x\nthe chance of \nD\nlanding in the interval is proportional to \n\u0394x\n, the width of the interval. So we can write\nP(x,\u0394x)=p(x)\u0394x.\n(6.17)\nThe function \np(x)\nis called the probability density."
+            },
+            {
+                "type": "text",
+                "data": "The form of \np(x)\nwill depend on \nN\n, the number of steps taken, and also on the distribution of individual step lengths. We cannot demonstrate the proofs here, but for large \nN\n,\np(x)\nis the same for all reasonable distributions in individual step lengths, and depends only on \nN\n. We plot\np(x)\nfor three values of \nN\nin Fig. 6\u20137. You will notice that the \u201chalf-widths\u201d (typical spread from \nx=0\n) of these curves is \nN\n\u2212\n\u2212\n\u221a\n, as we have shown it should be."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-07/f06-07_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "You may notice also that the value of \np(x)\nnear zero is inversely proportional to \nN\n\u2212\n\u2212\n\u221a\n. This comes about because the curves are all of a similar shape and their areas under the curves must all be equal. Since\np(x)\u0394x\nis the probability of finding \nD\nin \n\u0394x\nwhen\n\u0394x\nis small, we can determine the chance of finding \nD\nsomewhere inside an arbitrary interval from\nx\n1\nto \nx\n2\n, by cutting the interval in a number of small increments \n\u0394x\nand evaluating the sum of the terms \np(x)\u0394x\nfor each increment. The probability that\nD\nlands somewhere between\nx\n1\nand \nx\n2\n, which we may write\nP(\nx\n1\n<D<\nx\n2\n)\n, is equal to the shaded area in Fig. 6\u20138. The smaller we take the increments \n\u0394x\n, the more correct is our result. We can write, therefore,\nP(\nx\n1\n<D<\nx\n2\n)=\u2211p(x)\u0394x\n=\n\u222b\nx\n2\nx\n1\np(x)dx.\n(6.18)"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-08/f06-08_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "The area under the whole curve is the probability that\nD\nlands somewhere (that is, has some value between\nx=\u2212\u221e\nand \nx=+\u221e\n). That probability is surely \n1\n. We must have that\n\u222b\n+\u221e\n\u2212\u221e\np(x)dx=1.\n(6.19)\nSince the curves in Fig. 6\u20137 get wider in proportion to \nN\n\u2212\n\u2212\n\u221a\n, their heights must be proportional to \n1/\nN\n\u2212\n\u2212\n\u221a\nto maintain the total area equal to \n1\n."
+            },
+            {
+                "type": "text",
+                "data": "The probability density function we have been describing is one that is encountered most commonly. It is known as the normal or Gaussian probability density. It has the mathematical form\np(x)=\n1\n\u03c3\n2\u03c0\n\u2212\n\u2212\n\u221a\ne\n\u2212\nx\n2\n/2\n\u03c3\n2\n,\n(6.20)\nwhere\n\u03c3\nis called the standard deviation and is given, in our case, by \n\u03c3=\nN\n\u2212\n\u2212\n\u221a\nor, if the rms step size is different from \n1\n, by \n\u03c3=\nN\n\u2212\n\u2212\n\u221a\nS\nrms\n."
+            },
+            {
+                "type": "text",
+                "data": "We remarked earlier that the motion of a molecule, or of any particle, in a gas is like a random walk. Suppose we open a bottle of an organic compound and let some of its vapor escape into the air. If there are air currents, so that the air is circulating, the currents will also carry the vapor with them. But even in perfectly still air, the vapor will gradually spread out\u2014will diffuse\u2014until it has penetrated throughout the room. We might detect it by its color or odor. The individual molecules of the organic vapor spread out in still air because of the molecular motions caused by collisions with other molecules. If we know the average \u201cstep\u201d size, and the number of steps taken per second, we can find the probability that one, or several, molecules will be found at some distance from their starting point after any particular passage of time. As time passes, more steps are taken and the gas spreads out as in the successive curves of Fig. 6\u20137. In a later chapter, we shall find out how the step sizes and step frequencies are related to the temperature and pressure of a gas."
+            },
+            {
+                "type": "text",
+                "data": "Earlier, we said that the pressure of a gas is due to the molecules bouncing against the walls of the container. When we come later to make a more quantitative description, we will wish to know how fast the molecules are going when they bounce, since the impact they make will depend on that speed. We cannot, however, speak of the speed of the molecules. It is necessary to use a probability description. A molecule may have any speed, but some speeds are more likely than others. We describe what is going on by saying that the probability that any particular molecule will have a speed between\nv\nand \nv+\u0394v\nis\np(v)\u0394v\n, where \np(v)\n, a probability density, is a given function of the speed \nv\n. We shall see later how Maxwell, using common sense and the ideas of probability, was able to find a mathematical expression for \np(v)\n. The form2 of the function \np(v)\nis shown in Fig. 6\u20139. Velocities may have any value, but are most likely to be near the most probable value \nv\np\n."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-09/f06-09_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "We often think of the curve of Fig. 6\u20139 in a somewhat different way. If we consider the molecules in a typical container (with a volume of, say, one liter), then there are a very large number \nN\nof molecules present (\nN\u2248\n10\n22\n). Since \np(v)\u0394v\nis the probability that one molecule will have its velocity in \n\u0394v\n, by our definition of probability we mean that the expected number \n\u27e8\u0394N\u27e9\nto be found with a velocity in the interval \n\u0394v\nis given by\n\u27e8\u0394N\u27e9=Np(v)\u0394v.\n(6.21)\nWe call\nNp(v)\nthe \u201cdistribution in velocity.\u201d The area under the curve between two velocities\nv\n1\nand \nv\n2\n, for example the shaded area in Fig. 6\u20139, represents [for the curve \nNp(v)\n] the expected number of molecules with velocities between\nv\n1\nand \nv\n2\n. Since with a gas we are usually dealing with large numbers of molecules, we expect the deviations from the expected numbers to be small (like \n1/\nN\n\u2212\n\u2212\n\u221a\n), so we often neglect to say the \u201cexpected\u201d number, and say instead: \u201cThe number of molecules with velocities between\nv\n1\nand \nv\n2\nis the area under the curve.\u201d We should remember, however, that such statements are always about probable numbers."
+            },
+            {
+                "type": "text",
+                "data": "The ideas of probability are certainly useful in describing the behavior of the \n10\n22\nor so molecules in a sample of a gas, for it is clearly impractical even to attempt to write down the position or velocity of each molecule. When probability was first applied to such problems, it was considered to be a convenience\u2014a way of dealing with very complex situations. We now believe that the ideas of probability are essential to a description of atomic happenings. According to quantum mechanics, the mathematical theory of particles, there is always some uncertainty in the specification of positions and velocities. We can, at best, say that there is a certain probability that any particle will have a position near some coordinate \nx\n."
+            },
+            {
+                "type": "text",
+                "data": "We can give a probability density \np\n1\n(x)\n, such that \np\n1\n(x)\u0394x\nis the probability that the particle will be found between\nx\nand \nx+\u0394x\n. If the particle is reasonably well localized, say near \nx\n0\n, the function \np\n1\n(x)\nmight be given by the graph of Fig. 6\u201310(a). Similarly, we must specify the velocity of the particle by means of a probability density \np\n2\n(v)\n, with \np\n2\n(v)\u0394v\nthe probability that the velocity will be found between\nv\nand \nv+\u0394v\n."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-10/f06-10_tc_big_a.svgz"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-10/f06-10_tc_big_b.svgz"
+            },
+            {
+                "type": "text",
+                "data": "It is one of the fundamental results of quantum mechanics that the two functions\np\n1\n(x)\nand \np\n2\n(v)\ncannot be chosen independently and, in particular, cannot both be made arbitrarily narrow. If we call the typical \u201cwidth\u201d of the\np\n1\n(x)\n curve\n[\u0394x]\n, and that of the\np\n2\n(v)\n curve\n[\u0394v]\n(as shown in the figure), nature demands that the product of the two widths be at least as big as the number \n\u210f/2m\n, where\nm\nis the mass of the particle. We may write this basic relationship as\n[\u0394x]\u22c5[\u0394v]\u2265\u210f/2m.\n(6.22)\nThis equation is a statement of the Heisenberg uncertainty principle that we mentioned earlier."
+            },
+            {
+                "type": "text",
+                "data": "Since the right-hand side of Eq. (6.22) is a constant, this equation says that if we try to \u201cpin down\u201d a particle by forcing it to be at a particular place, it ends up by having a high speed. Or if we try to force it to go very slowly, or at a precise velocity, it \u201cspreads out\u201d so that we do not know very well just where it is. Particles behave in a funny way!"
+            },
+            {
+                "type": "text",
+                "data": "The uncertainty principle describes an inherent fuzziness that must exist in any attempt to describe nature. Our most precise description of nature must be in terms of probabilities. There are some people who do not like this way of describing nature. They feel somehow that if they could only tell what is really going on with a particle, they could know its speed and position simultaneously. In the early days of the development of quantum mechanics, Einstein was quite worried about this problem. He used to shake his head and say, \u201cBut, surely God does not throw dice in determining how electrons should go!\u201d He worried about that problem for a long time and he probably never really reconciled himself to the fact that this is the best description of nature that one can give. There are still one or two physicists who are working on the problem who have an intuitive conviction that it is possible somehow to describe the world in a different way and that all of this uncertainty about the way things are can be removed. No one has yet been successful."
+            },
+            {
+                "type": "text",
+                "data": "The necessary uncertainty in our specification of the position of a particle becomes most important when we wish to describe the structure of atoms. In the hydrogen atom, which has a nucleus of one proton with one electron outside of the nucleus, the uncertainty in the position of the electron is as large as the atom itself! We cannot, therefore, properly speak of the electron moving in some \u201corbit\u201d around the proton. The most we can say is that there is a certain chance \np(r)\u0394V\n, of observing the electron in an element of volume \n\u0394V\nat the distance \nr\nfrom the proton. The probability density \np(r)\nis given by quantum mechanics. For an undisturbed hydrogen atom\np(r)=A\ne\n\u22122r/a\n. The number \na\nis the \u201ctypical\u201d radius, where the function is decreasing rapidly. Since there is a small probability of finding the electron at distances from the nucleus much greater than \na\n, we may think of \na\nas \u201cthe radius of the atom,\u201d about\n10\n\u221210\n meter."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f06-11/f06-11_small.jpg"
+            },
+            {
+                "type": "text",
+                "data": "We can form an image of the hydrogen atom by imagining a \u201ccloud\u201d whose density is proportional to the probability density for observing the electron. A sample of such a cloud is shown in Fig. 6\u201311. Thus our best \u201cpicture\u201d of a hydrogen atom is a nucleus surrounded by an \u201celectron cloud\u201d (although we really mean a \u201cprobability cloud\u201d). The electron is there somewhere, but nature permits us to know only the chance of finding it at any particular place."
+            },
+            {
+                "type": "text",
+                "data": "In its efforts to learn as much as possible about nature, modern physics has found that certain things can never be \u201cknown\u201d with certainty. Much of our knowledge must always remain uncertain. The most we can know is in terms of probabilities."
+            }
+        ]
+    }
+]

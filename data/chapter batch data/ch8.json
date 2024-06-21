@@ -1,0 +1,1675 @@
+[
+    {
+        "input": "I_08",
+        "output": [
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f08-00/f08-00.jpg"
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "math",
+                "data": ""
+            },
+            {
+                "type": "text",
+                "data": "In order to find the laws governing the various changes that take place in bodies as time goes on, we must be able to describe the changes and have some way to record them. The simplest change to observe in a body is the apparent change in its position with time, which we call motion. Let us consider some solid object with a permanent mark, which we shall call a point, that we can observe. We shall discuss the motion of the little marker, which might be the radiator cap of an automobile or the center of a falling ball, and shall try to describe the fact that it moves and how it moves."
+            },
+            {
+                "type": "text",
+                "data": "These examples may sound trivial, but many subtleties enter into the description of change. Some changes are more difficult to describe than the motion of a point on a solid object, for example the speed of drift of a cloud that is drifting very slowly, but rapidly forming or evaporating, or the change of a woman\u2019s mind. We do not know a simple way to analyze a change of mind, but since the cloud can be represented or described by many molecules, perhaps we can describe the motion of the cloud in principle by describing the motion of all its individual molecules. Likewise, perhaps even the changes in the mind may have a parallel in changes of the atoms inside the brain, but we have no such knowledge yet."
+            },
+            {
+                "type": "text",
+                "data": "At any rate, that is why we begin with the motion of points; perhaps we should think of them as atoms, but it is probably better to be more rough in the beginning and simply to think of some kind of small objects\u2014small, that is, compared with the distance moved. For instance, in describing the motion of a car that is going a hundred miles, we do not have to distinguish between the front and the back of the car. To be sure, there are slight differences, but for rough purposes we say \u201cthe car,\u201d and likewise it does not matter that our points are not absolute points; for our present purposes it is not necessary to be extremely precise. Also, while we take a first look at this subject we are going to forget about the three dimensions of the world. We shall just concentrate on moving in one direction, as in a car on one road. We shall return to three dimensions after we see how to describe motion in one dimension. Now, you may say, \u201cThis is all some kind of trivia,\u201d and indeed it is. How can we describe such a one-dimensional motion\u2014let us say, of a car? Nothing could be simpler. Among many possible ways, one would be the following. To determine the position of the car at different times, we measure its distance from the starting point and record all the observations. In Table 8\u20131,\ns\nrepresents the distance of the car, in feet, from the starting point, and\nt\nrepresents the time in minutes. The first line in the table represents zero distance and zero time\u2014the car has not started yet. After one minute it has started and has gone\n1200\n feet. Then in two minutes, it goes farther\u2014notice that it picked up more distance in the second minute\u2014it has accelerated; but something happened between\n3\nand \n4\nand even more so at \n5\n\u2014it stopped at a light perhaps? Then it speeds up again and goes\n13,000\n feet by the end of\n6\n minutes,\n18,000\n feet at the end of\n7\n minutes, and\n23,500\n feet in\n8\n minutes; at\n9\n minutes it has advanced to only\n24,000\n feet, because in the last minute it was stopped by a cop."
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "1200"
+            },
+            {
+                "type": "math",
+                "data": "3"
+            },
+            {
+                "type": "math",
+                "data": "4"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "13,000"
+            },
+            {
+                "type": "math",
+                "data": "6"
+            },
+            {
+                "type": "math",
+                "data": "18,000"
+            },
+            {
+                "type": "math",
+                "data": "7"
+            },
+            {
+                "type": "math",
+                "data": "23,500"
+            },
+            {
+                "type": "math",
+                "data": "8"
+            },
+            {
+                "type": "math",
+                "data": "9"
+            },
+            {
+                "type": "math",
+                "data": "24,000"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "1200"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "4000"
+            },
+            {
+                "type": "math",
+                "data": "3"
+            },
+            {
+                "type": "math",
+                "data": "9000"
+            },
+            {
+                "type": "math",
+                "data": "4"
+            },
+            {
+                "type": "math",
+                "data": "9500"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "9600"
+            },
+            {
+                "type": "math",
+                "data": "6"
+            },
+            {
+                "type": "math",
+                "data": "13000"
+            },
+            {
+                "type": "math",
+                "data": "7"
+            },
+            {
+                "type": "math",
+                "data": "18000"
+            },
+            {
+                "type": "math",
+                "data": "8"
+            },
+            {
+                "type": "math",
+                "data": "23500"
+            },
+            {
+                "type": "math",
+                "data": "9"
+            },
+            {
+                "type": "math",
+                "data": "24000"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f08-01/f08-01_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "That is one way to describe the motion. Another way is by means of a graph. If we plot the time horizontally and the distance vertically, we obtain a curve something like that shown in Fig. 8\u20131. As the time increases, the distance increases, at first very slowly and then more rapidly, and very slowly again for a little while at\n4\n minutes; then it increases again for a few minutes and finally, at\n9\n minutes, appears to have stopped increasing. These observations can be made from the graph, without a table. Obviously, for a complete description one would have to know where the car is at the half-minute marks, too, but we suppose that the graph means something, that the car has some position at all the intermediate times."
+            },
+            {
+                "type": "math",
+                "data": "4"
+            },
+            {
+                "type": "math",
+                "data": "9"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "16"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "64"
+            },
+            {
+                "type": "math",
+                "data": "3"
+            },
+            {
+                "type": "math",
+                "data": "144"
+            },
+            {
+                "type": "math",
+                "data": "4"
+            },
+            {
+                "type": "math",
+                "data": "256"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "400"
+            },
+            {
+                "type": "math",
+                "data": "6"
+            },
+            {
+                "type": "math",
+                "data": "576"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f08-02/f08-02_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "The motion of a car is complicated. For another example we take something that moves in a simpler manner, following more simple laws: a falling ball. Table 8\u20132 gives the time in seconds and the distance in feet for a falling body. At zero seconds the ball starts out at zero feet, and at the end of\n1\n second it has fallen\n16\n feet. At the end of\n2\n seconds, it has fallen\n64\n feet, at the end of\n3\n seconds,\n144\n feet, and so on; if the tabulated numbers are plotted, we get the nice parabolic curve shown in Fig. 8\u20132. The formula for this curve can be written as\ns=16\nt\n2\n.\n(8.1)\nThis formula enables us to calculate the distances at any time. You might say there ought to be a formula for the first graph too. Actually, one may write such a formula abstractly, as\ns=f(t),\n(8.2)\nmeaning that\ns\nis some quantity depending on \nt\nor, in mathematical phraseology,\ns\nis a function of \nt\n. Since we do not know what the function is, there is no way we can write it in definite algebraic form."
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "16"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "64"
+            },
+            {
+                "type": "math",
+                "data": "3"
+            },
+            {
+                "type": "math",
+                "data": "144"
+            },
+            {
+                "type": "math",
+                "data": "s=16\nt\n2\n.\n(8.1)"
+            },
+            {
+                "type": "math",
+                "data": "s=f(t),\n(8.2)"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "text",
+                "data": "We have now seen two examples of motion, adequately described with very simple ideas, no subtleties. However, there are subtleties\u2014several of them. In the first place, what do we mean by time and space? It turns out that these deep philosophical questions have to be analyzed very carefully in physics, and this is not so easy to do. The theory of relativity shows that our ideas of space and time are not as simple as one might think at first sight. However, for our present purposes, for the accuracy that we need at first, we need not be very careful about defining things precisely. Perhaps you say, \u201cThat\u2019s a terrible thing\u2014I learned that in science we have to define everything precisely.\u201d We cannot define anything precisely! If we attempt to, we get into that paralysis of thought that comes to philosophers, who sit opposite each other, one saying to the other, \u201cYou don\u2019t know what you are talking about!\u201d The second one says, \u201cWhat do you mean by know? What do you mean by talking? What do you mean by you?,\u201d and so on. In order to be able to talk constructively, we just have to agree that we are talking about roughly the same thing. You know as much about time as we need for the present, but remember that there are some subtleties that have to be discussed; we shall discuss them later."
+            },
+            {
+                "type": "text",
+                "data": "Another subtlety involved, and already mentioned, is that it should be possible to imagine that the moving point we are observing is always located somewhere. (Of course when we are looking at it, there it is, but maybe when we look away it isn\u2019t there.) It turns out that in the motion of atoms, that idea also is false\u2014we cannot find a marker on an atom and watch it move. That subtlety we shall have to get around in quantum mechanics. But we are first going to learn what the problems are before introducing the complications, and then we shall be in a better position to make corrections, in the light of the more recent knowledge of the subject. We shall, therefore, take a simple point of view about time and space. We know what these concepts are in a rough way, and those who have driven a car know what speed means."
+            },
+            {
+                "type": "text",
+                "data": "Even though we know roughly what \u201cspeed\u201d means, there are still some rather deep subtleties; consider that the learned Greeks were never able to adequately describe problems involving velocity. The subtlety comes when we try to comprehend exactly what is meant by \u201cspeed.\u201d The Greeks got very confused about this, and a new branch of mathematics had to be discovered beyond the geometry and algebra of the Greeks, Arabs, and Babylonians. As an illustration of the difficulty, try to solve this problem by sheer algebra: A balloon is being inflated so that the volume of the balloon is increasing at the rate of\n100\n cm\u00b3 per second; at what speed is the radius increasing when the volume is\n1000\n cm\u00b3? The Greeks were somewhat confused by such problems, being helped, of course, by some very confusing Greeks. To show that there were difficulties in reasoning about speed at the time, Zeno produced a large number of paradoxes, of which we shall mention one to illustrate his point that there are obvious difficulties in thinking about motion. \u201cListen,\u201d he says, \u201cto the following argument: Achilles runs\n10\n times as fast as a tortoise, nevertheless he can never catch the tortoise. For, suppose that they start in a race where the tortoise is\n100\n meters ahead of Achilles; then when Achilles has run the\n100\n meters to the place where the tortoise was, the tortoise has proceeded\n10\n meters, having run one-tenth as fast. Now, Achilles has to run another\n10\n meters to catch up with the tortoise, but on arriving at the end of that run, he finds that the tortoise is still\n1\n meter ahead of him; running another meter, he finds the tortoise\n10\n centimeters ahead, and so on, ad infinitum. Therefore, at any moment the tortoise is always ahead of Achilles and Achilles can never catch up with the tortoise.\u201d What is wrong with that? It is that a finite amount of time can be divided into an infinite number of pieces, just as a length of line can be divided into an infinite number of pieces by dividing repeatedly by two. And so, although there are an infinite number of steps (in the argument) to the point at which Achilles reaches the tortoise, it doesn\u2019t mean that there is an infinite amount of time. We can see from this example that there are indeed some subtleties in reasoning about speed."
+            },
+            {
+                "type": "math",
+                "data": "100"
+            },
+            {
+                "type": "math",
+                "data": "1000"
+            },
+            {
+                "type": "math",
+                "data": "10"
+            },
+            {
+                "type": "math",
+                "data": "100"
+            },
+            {
+                "type": "math",
+                "data": "100"
+            },
+            {
+                "type": "math",
+                "data": "10"
+            },
+            {
+                "type": "math",
+                "data": "10"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "10"
+            },
+            {
+                "type": "text",
+                "data": "In order to get to the subtleties in a clearer fashion, we remind you of a joke which you surely must have heard. At the point where the lady in the car is caught by a cop, the cop comes up to her and says, \u201cLady, you were going\n60\n miles an hour!\u201d She says, \u201cThat\u2019s impossible, sir, I was travelling for only seven minutes. It is ridiculous\u2014how can I go\n60\n miles an hour when I wasn\u2019t going an hour?\u201d How would you answer her if you were the cop? Of course, if you were really the cop, then no subtleties are involved; it is very simple: you say, \u201cTell that to the judge!\u201d But let us suppose that we do not have that escape and we make a more honest, intellectual attack on the problem, and try to explain to this lady what we mean by the idea that she was going\n60\n miles an hour. Just what do we mean? We say, \u201cWhat we mean, lady, is this: if you kept on going the same way as you are going now, in the next hour you would go\n60\n miles.\u201d She could say, \u201cWell, my foot was off the accelerator and the car was slowing down, so if I kept on going that way it would not go\n60\n miles.\u201d Or consider the falling ball and suppose we want to know its speed at the time three seconds if the ball kept on going the way it is going. What does that mean\u2014kept on accelerating, going faster? No\u2014kept on going with the same velocity. But that is what we are trying to define! For if the ball keeps on going the way it is going, it will just keep on going the way it is going. Thus we need to define the velocity better. What has to be kept the same? The lady can also argue this way: \u201cIf I kept on going the way I\u2019m going for one more hour, I would run into that wall at the end of the street!\u201d It is not so easy to say what we mean."
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "text",
+                "data": "Many physicists think that measurement is the only definition of anything. Obviously, then, we should use the instrument that measures the speed\u2014the speedometer\u2014and say, \u201cLook, lady, your speedometer reads \n60\n.\u201d So she says, \u201cMy speedometer is broken and didn\u2019t read at all.\u201d Does that mean the car is standing still? We believe that there is something to measure before we build the speedometer. Only then can we say, for example, \u201cThe speedometer isn\u2019t working right,\u201d or \u201cthe speedometer is broken.\u201d That would be a meaningless sentence if the velocity had no meaning independent of the speedometer. So we have in our minds, obviously, an idea that is independent of the speedometer, and the speedometer is meant only to measure this idea. So let us see if we can get a better definition of the idea. We say, \u201cYes, of course, before you went an hour, you would hit that wall, but if you went one second, you would go\n88\n feet; lady, you were going\n88\n feet per second, and if you kept on going, the next second it would be\n88\n feet, and the wall down there is farther away than that.\u201d She says, \u201cYes, but there\u2019s no law against going\n88\n feet per second! There is only a law against going\n60\n miles an hour.\u201d \u201cBut,\u201d we reply, \u201cit\u2019s the same thing.\u201d If it is the same thing, it should not be necessary to go into this circumlocution about\n88\n feet per second. In fact, the falling ball could not keep going the same way even one second because it would be changing speed, and we shall have to define speed somehow."
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "88"
+            },
+            {
+                "type": "math",
+                "data": "88"
+            },
+            {
+                "type": "math",
+                "data": "88"
+            },
+            {
+                "type": "math",
+                "data": "88"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "88"
+            },
+            {
+                "type": "text",
+                "data": "Now we seem to be getting on the right track; it goes something like this: If the lady kept on going for another\n1/1000\n of an hour, she would go\n1/1000\n of\n60\n miles. In other words, she does not have to keep on going for the whole hour; the point is that for a moment she is going at that speed. Now what that means is that if she went just a little bit more in time, the extra distance she goes would be the same as that of a car that goes at a steady speed of\n60\n miles an hour. Perhaps the idea of the\n88\n feet per second is right; we see how far she went in the last second, divide by\n88\n feet, and if it comes out \n1\nthe speed was\n60\n miles an hour. In other words, we can find the speed in this way: We ask, how far do we go in a very short time? We divide that distance by the time, and that gives the speed. But the time should be made as short as possible, the shorter the better, because some change could take place during that time. If we take the time of a falling body as an hour, the idea is ridiculous. If we take it as a second, the result is pretty good for a car, because there is not much change in speed, but not for a falling body; so in order to get the speed more and more accurately, we should take a smaller and smaller time interval. What we should do is take a millionth of a second, find out how far the car has gone, and divide that distance by a millionth of a second. The result gives the distance per second, which is what we mean by the velocity, so we can define it that way. That is a successful answer for the lady, or rather, that is the definition that we are going to use."
+            },
+            {
+                "type": "math",
+                "data": "1/1000"
+            },
+            {
+                "type": "math",
+                "data": "1/1000"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "88"
+            },
+            {
+                "type": "math",
+                "data": "88"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "text",
+                "data": "The foregoing definition involves a new idea, an idea that was not available to the Greeks in a general form. That idea was to take an infinitesimal distance and the corresponding infinitesimal time, form the ratio, and watch what happens to that ratio as the time that we use gets smaller and smaller and smaller. In other words, take a limit of the distance travelled divided by the time required, as the time taken gets smaller and smaller, ad infinitum. This idea was invented by Newton and by Leibniz, independently, and is the beginning of a new branch of mathematics, called the differential calculus. Calculus was invented in order to describe motion, and its first application was to the problem of defining what is meant by going \u201c\n60\n miles an hour.\u201d"
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "text",
+                "data": "Let us try to define velocity a little better. Suppose that in a short time,\n\u03f5\n, the car or other body goes a short distance \nx\n; then the velocity,\nv\n, is defined as\nv=x/\u03f5,\n/\nan approximation that becomes better and better as the \n\u03f5\nis taken smaller and smaller. If a mathematical expression is desired, we can say that the velocity equals the limit as the \n\u03f5\nis made to go smaller and smaller in the expression \nx/\u03f5\n, or\nv=\nlim\n\u03f5\u21920\nx\n\u03f5\n.\n(8.3)\nWe cannot do the same thing with the lady in the car, because the table is incomplete. We know only where she was at intervals of one minute; we can get a rough idea that she was going\n5000\n ft/min during the\n7\nth minute, but we do not know, at exactly the moment\n7\n minutes, whether she had been speeding up and the speed was\n4900\n ft/min at the beginning of the\n6\nth minute, and is now\n5100\n ft/min, or something else, because we do not have the exact details in between. So only if the table were completed with an infinite number of entries could we really calculate the velocity from such a table. On the other hand, when we have a complete mathematical formula, as in the case of a falling body (Eq. 8.1), then it is possible to calculate the velocity, because we can calculate the position at any time whatsoever."
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "v"
+            },
+            {
+                "type": "math",
+                "data": "v=x/\u03f5,\n/"
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "x/\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "v=\nlim\n\u03f5\u21920\nx\n\u03f5\n.\n(8.3)"
+            },
+            {
+                "type": "math",
+                "data": "5000"
+            },
+            {
+                "type": "math",
+                "data": "7"
+            },
+            {
+                "type": "math",
+                "data": "7"
+            },
+            {
+                "type": "math",
+                "data": "4900"
+            },
+            {
+                "type": "math",
+                "data": "6"
+            },
+            {
+                "type": "math",
+                "data": "5100"
+            },
+            {
+                "type": "text",
+                "data": "Let us take as an example the problem of determining the velocity of the falling ball at the particular time\n5\n seconds. One way to do this is to see from Table 8\u20132 what it did in the\n5\nth second; it went\n400\u2212256=144\n ft, so it is going\n144\n ft/sec; however, that is wrong, because the speed is changing; on the average it is\n144\n ft/sec during this interval, but the ball is speeding up and is really going faster than\n144\n ft/sec. We want to find out exactly how fast. The technique involved in this process is the following: We know where the ball was at\n5\n sec. At\n5.1\n sec, the distance that it has gone all together is\n16(5.1\n)\n2\n=416.16\n ft (see Eq. 8.1). At\n5\n sec it had already fallen\n400\n ft; in the last tenth of a second it fell\n416.16\u2212400=16.16\n ft. Since\n16.16\n ft in\n0.1\n sec is the same as\n161.6\n ft/sec, that is the speed more or less, but it is not exactly correct. Is that the speed at \n5\n, or at \n5.1\n, or halfway between at\n5.05\n sec, or when is that the speed? Never mind\u2014the problem was to find the speed at\n5\n seconds, and we do not have exactly that; we have to do a better job. So, we take one-thousandth of a second more than \n5\nsec, or\n5.001\n sec, and calculate the total fall as\ns=16(5.001\n)\n2\n=16(25.010001)\n=400.160016 ft.\nIn the last\n0.001\n sec the ball fell\n0.160016\n ft, and if we divide this number by\n0.001\n sec we obtain the speed as\n160.016\n ft/sec. That is closer, very close, but it is still not exact. It should now be evident what we must do to find the speed exactly. To perform the mathematics we state the problem a little more abstractly: to find the velocity at a special time,\nt\n0\n, which in the original problem was\n5\n sec. Now the distance at \nt\n0\n, which we call \ns\n0\n, is \n16\nt\n2\n0\n, or\n400\n ft in this case. In order to find the velocity, we ask, \u201cAt the time \nt\n0\n+(a little bit)\n, or \nt\n0\n+\u03f5\n, where is the body?\u201d The new position is \n16(\nt\n0\n+\u03f5\n)\n2\n=16\nt\n2\n0\n+32\nt\n0\n\u03f5+16\n\u03f5\n2\n. So it is farther along than it was before, because before it was only \n16\nt\n2\n0\n. This distance we shall call \ns\n0\n+(a little bit more)\n, or \ns\n0\n+x\n(if \nx\nis the extra bit). Now if we subtract the distance at \nt\n0\nfrom the distance at \nt\n0\n+\u03f5\n, we get \nx\n, the extra distance gone, as \nx=32\nt\n0\n\u22c5\u03f5+16\n\u03f5\n2\n. Our first approximation to the velocity is\nv=\nx\n\u03f5\n=32\nt\n0\n+16\u03f5.\n(8.4)\nThe true velocity is the value of this ratio,\nx/\u03f5\n, when\n\u03f5\nbecomes vanishingly small. In other words, after forming the ratio, we take the limit as \n\u03f5\ngets smaller and smaller, that is, approaches \n0\n. The equation reduces to,\nv(at time \nt\n0\n)=32\nt\n0\n.\n(\n)\nIn our problem,\nt\n0\n=5\n sec, so the solution is\nv=\n32\u00d75=\n160\n ft/sec. A few lines above, where we took \n\u03f5\nas \n0.1\nand\n0.001\n sec successively, the value we got for \nv\nwas a little more than this, but now we see that the actual velocity is precisely\n160\n ft/sec."
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "400\u2212256=144"
+            },
+            {
+                "type": "math",
+                "data": "144"
+            },
+            {
+                "type": "math",
+                "data": "144"
+            },
+            {
+                "type": "math",
+                "data": "144"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "5.1"
+            },
+            {
+                "type": "math",
+                "data": "16(5.1\n)\n2\n=416.16"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "400"
+            },
+            {
+                "type": "math",
+                "data": "416.16\u2212400=16.16"
+            },
+            {
+                "type": "math",
+                "data": "16.16"
+            },
+            {
+                "type": "math",
+                "data": "0.1"
+            },
+            {
+                "type": "math",
+                "data": "161.6"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "5.1"
+            },
+            {
+                "type": "math",
+                "data": "5.05"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "5.001"
+            },
+            {
+                "type": "math",
+                "data": "s=16(5.001\n)\n2\n=16(25.010001)\n=400.160016 ft."
+            },
+            {
+                "type": "math",
+                "data": "0.001"
+            },
+            {
+                "type": "math",
+                "data": "0.160016"
+            },
+            {
+                "type": "math",
+                "data": "0.001"
+            },
+            {
+                "type": "math",
+                "data": "160.016"
+            },
+            {
+                "type": "math",
+                "data": "t\n0"
+            },
+            {
+                "type": "math",
+                "data": "5"
+            },
+            {
+                "type": "math",
+                "data": "t\n0"
+            },
+            {
+                "type": "math",
+                "data": "s\n0"
+            },
+            {
+                "type": "math",
+                "data": "16\nt\n2\n0"
+            },
+            {
+                "type": "math",
+                "data": "400"
+            },
+            {
+                "type": "math",
+                "data": "t\n0\n+(a little bit)"
+            },
+            {
+                "type": "math",
+                "data": "t\n0\n+\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "16(\nt\n0\n+\u03f5\n)\n2\n=16\nt\n2\n0\n+32\nt\n0\n\u03f5+16\n\u03f5\n2"
+            },
+            {
+                "type": "math",
+                "data": "16\nt\n2\n0"
+            },
+            {
+                "type": "math",
+                "data": "s\n0\n+(a little bit more)"
+            },
+            {
+                "type": "math",
+                "data": "s\n0\n+x"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "t\n0"
+            },
+            {
+                "type": "math",
+                "data": "t\n0\n+\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "x=32\nt\n0\n\u22c5\u03f5+16\n\u03f5\n2"
+            },
+            {
+                "type": "math",
+                "data": "v=\nx\n\u03f5\n=32\nt\n0\n+16\u03f5.\n(8.4)"
+            },
+            {
+                "type": "math",
+                "data": "x/\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "v(at time \nt\n0\n)=32\nt\n0\n.\n(\n)"
+            },
+            {
+                "type": "math",
+                "data": "t\n0\n=5"
+            },
+            {
+                "type": "math",
+                "data": "v="
+            },
+            {
+                "type": "math",
+                "data": "32\u00d75="
+            },
+            {
+                "type": "math",
+                "data": "160"
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "0.1"
+            },
+            {
+                "type": "math",
+                "data": "0.001"
+            },
+            {
+                "type": "math",
+                "data": "v"
+            },
+            {
+                "type": "math",
+                "data": "160"
+            },
+            {
+                "type": "text",
+                "data": "The procedure we have just carried out is performed so often in mathematics that for convenience special notations have been assigned to our quantities\n\u03f5\nand \nx\n. In this notation, the \n\u03f5\nused above becomes \n\u0394t\nand \nx\nbecomes \n\u0394s\n. This\n\u0394t\nmeans \u201can extra bit of \nt\n,\u201d and carries an implication that it can be made smaller. The prefix \n\u0394\nis not a multiplier, any more than \nsin\u03b8\nmeans \ns\u22c5i\u22c5n\u22c5\u03b8\n\u2014it simply defines a time increment, and reminds us of its special character.\n\u0394s\nhas an analogous meaning for the distance \ns\n. Since \n\u0394\nis not a factor, it cannot be cancelled in the ratio \n\u0394s/\u0394t\nto give \ns/t\n, any more than the ratio \nsin\u03b8/sin2\u03b8\ncan be reduced to \n1/2\nby cancellation. In this notation, velocity is equal to the limit of \n\u0394s/\u0394t\nwhen \n\u0394t\ngets smaller, or\nv=\nlim\n\u0394t\u21920\n\u0394s\n\u0394t\n.\n(8.5)\nThis is really the same as our previous expression (8.3) with\n\u03f5\nand \nx\n, but it has the advantage of showing that something is changing, and it keeps track of what is changing."
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394"
+            },
+            {
+                "type": "math",
+                "data": "sin\u03b8"
+            },
+            {
+                "type": "math",
+                "data": "s\u22c5i\u22c5n\u22c5\u03b8"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s/\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "s/t"
+            },
+            {
+                "type": "math",
+                "data": "sin\u03b8/sin2\u03b8"
+            },
+            {
+                "type": "math",
+                "data": "1/2"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s/\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "v=\nlim\n\u0394t\u21920\n\u0394s\n\u0394t\n.\n(8.5)"
+            },
+            {
+                "type": "math",
+                "data": "\u03f5"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "text",
+                "data": "Incidentally, to a good approximation we have another law, which says that the change in distance of a moving point is the velocity times the time interval, or \n\u0394s=v\u0394t\n. This statement is true only if the velocity is not changing during that time interval, and this condition is true only in the limit as \n\u0394t\ngoes to \n0\n. Physicists like to write it \nds=vdt\n, because by \ndt\nthey mean \n\u0394t\nin circumstances in which it is very small; with this understanding, the expression is valid to a close approximation. If \n\u0394t\nis too long, the velocity might change during the interval, and the approximation would become less accurate. For a time \ndt\n, approaching zero,\nds=vdt\nprecisely. In this notation we can write (8.5) as\nv=\nlim\n\u0394t\u21920\n\u0394s\n\u0394t\n=\nds\ndt\n.\n\u0394\nd"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s=v\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "ds=vdt"
+            },
+            {
+                "type": "math",
+                "data": "dt"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "dt"
+            },
+            {
+                "type": "math",
+                "data": "ds=vdt"
+            },
+            {
+                "type": "math",
+                "data": "v=\nlim\n\u0394t\u21920\n\u0394s\n\u0394t\n=\nds\ndt\n.\n\u0394\nd"
+            },
+            {
+                "type": "text",
+                "data": "The quantity \nds/dt\nwhich we found above is called the \u201cderivative of \ns\nwith respect to \nt\n\u201d (this language helps to keep track of what was changed), and the complicated process of finding it is called finding a derivative, or differentiating. The\nds\n\u2019s and \ndt\n\u2019s which appear separately are called differentials. To familiarize you with the words, we say we found the derivative of the function \n16\nt\n2\n, or the derivative (with respect to \nt\n) of \n16\nt\n2\nis \n32t\n. When we get used to the words, the ideas are more easily understood. For practice, let us find the derivative of a more complicated function. We shall consider the formula \ns=A\nt\n3\n+Bt+C\n, which might describe the motion of a point. The letters\nA\n, \nB\n, and \nC\nrepresent constant numbers, as in the familiar general form of a quadratic equation. Starting from the formula for the motion, we wish to find the velocity at any time. To find the velocity in the more elegant manner, we change\nt\nto \nt+\u0394t\nand note that \ns\nis then changed to \ns+some \u0394s\n; then we find the \n\u0394s\nin terms of \n\u0394t\n. That is to say,\ns+\u0394s\n=A(t+\u0394t\n)\n3\n+B(t+\u0394t)+C\n=A\nt\n3\n+Bt+C+3A\nt\n2\n\u0394t+B\u0394t\n+3At(\u0394t\n)\n2\n+A(\u0394t\n)\n3\n,\nbut since\ns=A\nt\n3\n+Bt+C,\n3\nwe find that\n\u0394s=3A\nt\n2\n\u0394t+B\u0394t+3At(\u0394t\n)\n2\n+A(\u0394t\n)\n3\n.\n2\n3\nBut we do not want \n\u0394s\n\u2014we want \n\u0394s\ndivided by \n\u0394t\n. We divide the preceding equation by \n\u0394t\n, getting\n\u0394s\n\u0394t\n=3A\nt\n2\n+B+3At(\u0394t)+A(\u0394t\n)\n2\n.\n\u0394\nAs\n\u0394t\ngoes toward \n0\nthe limit of \n\u0394s/\u0394t\nis \nds/dt\nand is equal to\nds\ndt\n=3A\nt\n2\n+B.\nd\nThis is the fundamental process of calculus, differentiating functions. The process is even more simple than it appears. Observe that when these expansions contain any term with a square or a cube or any higher power of \n\u0394t\n, such terms may be dropped at once, since they will go to \n0\nwhen the limit is taken. After a little practice the process gets easier because one knows what to leave out. There are many rules or formulas for differentiating various types of functions. These can be memorized, or can be found in tables. A short list is found in Table 8\u20133."
+            },
+            {
+                "type": "math",
+                "data": "ds/dt"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "ds"
+            },
+            {
+                "type": "math",
+                "data": "dt"
+            },
+            {
+                "type": "math",
+                "data": "16\nt\n2"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "16\nt\n2"
+            },
+            {
+                "type": "math",
+                "data": "32t"
+            },
+            {
+                "type": "math",
+                "data": "s=A\nt\n3\n+Bt+C"
+            },
+            {
+                "type": "math",
+                "data": "A"
+            },
+            {
+                "type": "math",
+                "data": "B"
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "t+\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "s+some \u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "s+\u0394s\n=A(t+\u0394t\n)\n3\n+B(t+\u0394t)+C\n=A\nt\n3\n+Bt+C+3A\nt\n2\n\u0394t+B\u0394t\n+3At(\u0394t\n)\n2\n+A(\u0394t\n)\n3\n,"
+            },
+            {
+                "type": "math",
+                "data": "s=A\nt\n3\n+Bt+C,\n3"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s=3A\nt\n2\n\u0394t+B\u0394t+3At(\u0394t\n)\n2\n+A(\u0394t\n)\n3\n.\n2\n3"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s\n\u0394t\n=3A\nt\n2\n+B+3At(\u0394t)+A(\u0394t\n)\n2\n.\n\u0394"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s/\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "ds/dt"
+            },
+            {
+                "type": "math",
+                "data": "ds\ndt\n=3A\nt\n2\n+B.\nd"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "u"
+            },
+            {
+                "type": "math",
+                "data": "v"
+            },
+            {
+                "type": "math",
+                "data": "w"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "a"
+            },
+            {
+                "type": "math",
+                "data": "b"
+            },
+            {
+                "type": "math",
+                "data": "c"
+            },
+            {
+                "type": "math",
+                "data": "n"
+            },
+            {
+                "type": "math",
+                "data": "s=\nt\nn"
+            },
+            {
+                "type": "math",
+                "data": "ds\ndt\n=n\nt\nn\u22121"
+            },
+            {
+                "type": "math",
+                "data": "s=cu"
+            },
+            {
+                "type": "math",
+                "data": "ds\ndt\n=c\ndu\ndt"
+            },
+            {
+                "type": "math",
+                "data": "s=u+v+w+\u22ef"
+            },
+            {
+                "type": "math",
+                "data": "ds\ndt\n=\ndu\ndt\n+\ndv\ndt\n+\ndw\ndt\n+\u22ef"
+            },
+            {
+                "type": "math",
+                "data": "s=c"
+            },
+            {
+                "type": "math",
+                "data": "ds\ndt\n=0"
+            },
+            {
+                "type": "math",
+                "data": "s=\nu\na\nv\nb\nw\nc\n\u22ef"
+            },
+            {
+                "type": "math",
+                "data": "ds\ndt\n=s(\na\nu\ndu\ndt\n+\nb\nv\ndv\ndt\n+\nc\nw\ndw\ndt\n+\u22ef)"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "v"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "32"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "64"
+            },
+            {
+                "type": "math",
+                "data": "3"
+            },
+            {
+                "type": "math",
+                "data": "96"
+            },
+            {
+                "type": "math",
+                "data": "4"
+            },
+            {
+                "type": "math",
+                "data": "128"
+            },
+            {
+                "type": "text",
+                "data": "Now we have to discuss the inverse problem. Suppose that instead of a table of distances, we have a table of speeds at different times, starting from zero. For the falling ball, such speeds and times are shown in Table 8\u20134. A similar table could be constructed for the velocity of the car, by recording the speedometer reading every minute or half-minute. If we know how fast the car is going at any time, can we determine how far it goes? This problem is just the inverse of the one solved above; we are given the velocity and asked to find the distance. How can we find the distance if we know the speed? If the speed of the car is not constant, and the lady goes sixty miles an hour for a moment, then slows down, speeds up, and so on, how can we determine how far she has gone? That is easy. We use the same idea, and express the distance in terms of infinitesimals. Let us say, \u201cIn the first second her speed was such and such, and from the formula \n\u0394s=v\u0394t\nwe can calculate how far the car went the first second at that speed.\u201d Now in the next second her speed is nearly the same, but slightly different; we can calculate how far she went in the next second by taking the new speed times the time. We proceed similarly for each second, to the end of the run. We now have a number of little distances, and the total distance will be the sum of all these little pieces. That is, the distance will be the sum of the velocities times the times, or \ns=\u2211v\u0394t\n, where the Greek letter \n\u2211\n(sigma) is used to denote addition. To be more precise, it is the sum of the velocity at a certain time, let us say the\ni\n-th time, multiplied by \n\u0394t\n.\ns=\n\u2211\ni\nv(\nt\ni\n)\u0394t.\n(8.6)\nThe rule for the times is that \nt\ni+1\n=\nt\ni\n+\u0394t\n. However, the distance we obtain by this method will not be correct, because the velocity changes during the time interval \n\u0394t\n. If we take the times short enough, the sum is precise, so we take them smaller and smaller until we obtain the desired accuracy. The true \ns\nis\ns=\nlim\n\u0394t\u21920\n\u2211\ni\nv(\nt\ni\n)\u0394t.\n(8.7)\nThe mathematicians have invented a symbol for this limit, analogous to the symbol for the differential. The \n\u0394\nturns into a \nd\nto remind us that the time is as small as it can be; the velocity is then called \nv\nat the time \nt\n, and the addition is written as a sum with a great \u201c\ns\n,\u201d\n\u222b\n(from the Latin summa), which has become distorted and is now unfortunately just called an integral sign. Thus we write\ns=\u222bv(t)dt.\n(8.8)\nThis process of adding all these terms together is called integration, and it is the opposite process to differentiation. The derivative of this integral is \nv\n, so one operator (\nd\n) undoes the other (\n\u222b\n). One can get formulas for integrals by taking the formulas for derivatives and running them backwards, because they are related to each other inversely. Thus one can work out his own table of integrals by differentiating all sorts of functions. For every formula with a differential, we get an integral formula if we turn it around."
+            },
+            {
+                "type": "math",
+                "data": "\u0394s=v\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "s=\u2211v\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u2211"
+            },
+            {
+                "type": "math",
+                "data": "i"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "s=\n\u2211\ni\nv(\nt\ni\n)\u0394t.\n(8.6)"
+            },
+            {
+                "type": "math",
+                "data": "t\ni+1\n=\nt\ni\n+\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "s=\nlim\n\u0394t\u21920\n\u2211\ni\nv(\nt\ni\n)\u0394t.\n(8.7)"
+            },
+            {
+                "type": "math",
+                "data": "\u0394"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "v"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "s"
+            },
+            {
+                "type": "math",
+                "data": "\u222b"
+            },
+            {
+                "type": "math",
+                "data": "s=\u222bv(t)dt.\n(8.8)"
+            },
+            {
+                "type": "math",
+                "data": "v"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "\u222b"
+            },
+            {
+                "type": "text",
+                "data": "Every function can be differentiated analytically, i.e., the process can be carried out algebraically, and leads to a definite function. But it is not possible in a simple manner to write an analytical value for any integral at will. You can calculate it, for instance, by doing the above sum, and then doing it again with a finer interval \n\u0394t\nand again with a finer interval until you have it nearly right. In general, given some particular function, it is not possible to find, analytically, what the integral is. One may always try to find a function which, when differentiated, gives some desired function; but one may not find it, and it may not exist, in the sense of being expressible in terms of functions that have already been given names."
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "text",
+                "data": "The next step in developing the equations of motion is to introduce another idea which goes beyond the concept of velocity to that of change of velocity, and we now ask, \u201cHow does the velocity change?\u201d In previous chapters we have discussed cases in which forces produce changes in velocity. You may have heard with great excitement about some car that can get from rest to\n60\n miles an hour in ten seconds flat. From such a performance we can see how fast the speed changes, but only on the average. What we shall now discuss is the next level of complexity, which is how fast the velocity is changing. In other words, by how many feet per second does the velocity change in a second, that is, how many feet per second, per second? We previously derived the formula for the velocity of a falling body as \nv=32t\n, which is charted in Table 8\u20134, and now we want to find out how much the velocity changes per second; this quantity is called the acceleration."
+            },
+            {
+                "type": "math",
+                "data": "60"
+            },
+            {
+                "type": "math",
+                "data": "v=32t"
+            },
+            {
+                "type": "text",
+                "data": "Acceleration is defined as the time rate of change of velocity. From the preceding discussion we know enough already to write the acceleration as the derivative \ndv/dt\n, in the same way that the velocity is the derivative of the distance. If we now differentiate the formula \nv=32t\nwe obtain, for a falling body,\na=\ndv\ndt\n=32.\n(8.9)\n[To differentiate the term \n32t\nwe can utilize the result obtained in a previous problem, where we found that the derivative of \nBt\nis simply \nB\n(a constant). So by letting \nB=32\n, we have at once that the derivative of \n32t\nis \n32\n.] This means that the velocity of a falling body is changing by\n32\n feet per second, per second always. We also see from Table 8\u20134 that the velocity increases by\n32\n ft/sec in each second. This is a very simple case, for accelerations are usually not constant. The reason the acceleration is constant here is that the force on the falling body is constant, and Newton\u2019s law says that the acceleration is proportional to the force."
+            },
+            {
+                "type": "math",
+                "data": "dv/dt"
+            },
+            {
+                "type": "math",
+                "data": "v=32t"
+            },
+            {
+                "type": "math",
+                "data": "a=\ndv\ndt\n=32.\n(8.9)"
+            },
+            {
+                "type": "math",
+                "data": "32t"
+            },
+            {
+                "type": "math",
+                "data": "Bt"
+            },
+            {
+                "type": "math",
+                "data": "B"
+            },
+            {
+                "type": "math",
+                "data": "B=32"
+            },
+            {
+                "type": "math",
+                "data": "32t"
+            },
+            {
+                "type": "math",
+                "data": "32"
+            },
+            {
+                "type": "math",
+                "data": "32"
+            },
+            {
+                "type": "math",
+                "data": "32"
+            },
+            {
+                "type": "text",
+                "data": "As a further example, let us find the acceleration in the problem we have already solved for the velocity. Starting with\ns=A\nt\n3\n+Bt+C\n3\nwe obtained, for\nv=ds/dt\n,\nv=3A\nt\n2\n+B.\n2\nSince acceleration is the derivative of the velocity with respect to the time, we need to differentiate the last expression above. Recall the rule that the derivative of the two terms on the right equals the sum of the derivatives of the individual terms. To differentiate the first of these terms, instead of going through the fundamental process again we note that we have already differentiated a quadratic term when we differentiated \n16\nt\n2\n, and the effect was to double the numerical coefficient and change the\nt\n2\nto \nt\n; let us assume that the same thing will happen this time, and you can check the result yourself. The derivative of \n3A\nt\n2\nwill then be \n6At\n. Next we differentiate \nB\n, a constant term; but by a rule stated previously, the derivative of \nB\nis zero; hence this term contributes nothing to the acceleration. The final result, therefore, is \na=\ndv/dt=\n6At\n."
+            },
+            {
+                "type": "math",
+                "data": "s=A\nt\n3\n+Bt+C\n3"
+            },
+            {
+                "type": "math",
+                "data": "v=ds/dt"
+            },
+            {
+                "type": "math",
+                "data": "v=3A\nt\n2\n+B.\n2"
+            },
+            {
+                "type": "math",
+                "data": "16\nt\n2"
+            },
+            {
+                "type": "math",
+                "data": "t\n2"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "3A\nt\n2"
+            },
+            {
+                "type": "math",
+                "data": "6At"
+            },
+            {
+                "type": "math",
+                "data": "B"
+            },
+            {
+                "type": "math",
+                "data": "B"
+            },
+            {
+                "type": "math",
+                "data": "a="
+            },
+            {
+                "type": "math",
+                "data": "dv/dt="
+            },
+            {
+                "type": "math",
+                "data": "6At"
+            },
+            {
+                "type": "text",
+                "data": "For reference, we state two very useful formulas, which can be obtained by integration. If a body starts from rest and moves with a constant acceleration,\ng\n, its velocity \nv\nat any time \nt\nis given by\nv=gt.\nt\nThe distance it covers in the same time is\ns=\n1\n2\ng\nt\n2\n.\n1"
+            },
+            {
+                "type": "math",
+                "data": "g"
+            },
+            {
+                "type": "math",
+                "data": "v"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "v=gt.\nt"
+            },
+            {
+                "type": "math",
+                "data": "s=\n1\n2\ng\nt\n2\n.\n1"
+            },
+            {
+                "type": "text",
+                "data": "Various mathematical notations are used in writing derivatives. Since velocity is \nds/dt\nand acceleration is the time derivative of the velocity, we can also write\na=\nd\ndt\n(\nds\ndt\n)=\nd\n2\ns\nd\nt\n2\n,\n(8.10)\nwhich are common ways of writing a second derivative."
+            },
+            {
+                "type": "math",
+                "data": "ds/dt"
+            },
+            {
+                "type": "math",
+                "data": "a=\nd\ndt\n(\nds\ndt\n)=\nd\n2\ns\nd\nt\n2\n,\n(8.10)"
+            },
+            {
+                "type": "text",
+                "data": "We have another law that the velocity is equal to the integral of the acceleration. This is just the opposite of \na=dv/dt\n; we have already seen that distance is the integral of the velocity, so distance can be found by twice integrating the acceleration."
+            },
+            {
+                "type": "math",
+                "data": "a=dv/dt"
+            },
+            {
+                "type": "text",
+                "data": "In the foregoing discussion the motion was in only one dimension, and space permits only a brief discussion of motion in three dimensions. Consider a particle \nP\nwhich moves in three dimensions in any manner whatsoever. At the beginning of this chapter, we opened our discussion of the one-dimensional case of a moving car by observing the distance of the car from its starting point at various times. We then discussed velocity in terms of changes of these distances with time, and acceleration in terms of changes in velocity. We can treat three-dimensional motion analogously. It will be simpler to illustrate the motion on a two-dimensional diagram, and then extend the ideas to three dimensions. We establish a pair of axes at right angles to each other, and determine the position of the particle at any moment by measuring how far it is from each of the two axes. Thus each position is given in terms of an\nx\n-distance and a\ny\n-distance, and the motion can be described by constructing a table in which both these distances are given as functions of time. (Extension of this process to three dimensions requires only another axis, at right angles to the first two, and measuring a third distance, the\nz\n-distance. The distances are now measured from coordinate planes instead of lines.) Having constructed a table with\nx\n- and\ny\n-distances, how can we determine the velocity? We first find the components of velocity in each direction. The horizontal part of the velocity, or\nx\n-component, is the derivative of the\nx\n-distance with respect to the time, or\nv\nx\n=dx/dt.\n(8.11)\nSimilarly, the vertical part of the velocity, or\ny\n-component, is\nv\ny\n=dy/dt.\n(8.12)\nIn the third dimension,\nv\nz\n=dz/dt.\n(8.13)"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "v\nx\n=dx/dt.\n(8.11)"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "v\ny\n=dy/dt.\n(8.12)"
+            },
+            {
+                "type": "math",
+                "data": "v\nz\n=dz/dt.\n(8.13)"
+            },
+            {
+                "type": "text",
+                "data": "Now, given the components of velocity, how can we find the velocity along the actual path of motion? In the two-dimensional case, consider two successive positions of the particle, separated by a short distance \n\u0394s\nand a short time interval \nt\n2\n\u2212\nt\n1\n=\u0394t\n. In the time \n\u0394t\nthe particle moves horizontally a distance \n\u0394x\u2248\nv\nx\n\u0394t\n, and vertically a distance \n\u0394y\u2248\nv\ny\n\u0394t\n. (The symbol \u201c\n\u2248\n\u201d is read \u201cis approximately.\u201d) The actual distance moved is approximately\n\u0394s\u2248\n(\u0394x\n)\n2\n+(\u0394y\n)\n2\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n,\n(8.14)\nas shown in Fig. 8\u20133. The approximate velocity during this interval can be obtained by dividing by \n\u0394t\nand by letting \n\u0394t\ngo to \n0\n, as at the beginning of the chapter. We then get the velocity as\nv=\nds\ndt\n=\n(dx/dt\n)\n2\n+(dy/dt\n)\n2\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n=\nv\n2\nx\n+\nv\n2\ny\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n.\n(8.15)\nFor three dimensions the result is\nv=\nv\n2\nx\n+\nv\n2\ny\n+\nv\n2\nz\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n.\n(8.16)"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "t\n2\n\u2212\nt\n1\n=\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394x\u2248\nv\nx\n\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394y\u2248\nv\ny\n\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u2248"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s\u2248\n(\u0394x\n)\n2\n+(\u0394y\n)\n2\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n,\n(8.14)"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "\u0394t"
+            },
+            {
+                "type": "math",
+                "data": "0"
+            },
+            {
+                "type": "math",
+                "data": "v=\nds\ndt\n=\n(dx/dt\n)\n2\n+(dy/dt\n)\n2\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n=\nv\n2\nx\n+\nv\n2\ny\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n.\n(8.15)"
+            },
+            {
+                "type": "math",
+                "data": "v=\nv\n2\nx\n+\nv\n2\ny\n+\nv\n2\nz\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u2212\n\u221a\n.\n(8.16)"
+            },
+            {
+                "type": "text",
+                "data": "In the same way as we defined velocities, we can define accelerations: we have an\nx\n-component of acceleration \na\nx\n, which is the derivative of \nv\nx\n, the\nx\n-component of the velocity (that is,\na\nx\n=\nd\n2\nx/d\nt\n2\n, the second derivative of \nx\nwith respect to \nt\n), and so on."
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "a\nx"
+            },
+            {
+                "type": "math",
+                "data": "v\nx"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "a\nx\n=\nd\n2\nx/d\nt\n2"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f08-03/f08-03_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "Let us consider one nice example of compound motion in a plane. We shall take a motion in which a ball moves horizontally with a constant velocity \nu\n, and at the same time goes vertically downward with a constant acceleration \n\u2212g\n; what is the motion? We can say \ndx/dt=\nv\nx\n=\nu\n. Since the velocity \nv\nx\nis constant,\nx=ut,\n(8.17)\nand since the downward acceleration \n\u2212g\nis constant, the distance \ny\nthe object falls can be written as\ny=\u2212\n1\n2\ng\nt\n2\n.\n(8.18)\nWhat is the curve of its path, i.e., what is the relation between\ny\nand \nx\n? We can eliminate \nt\nfrom Eq. (8.18), since \nt=x/u\n. When we make this substitution we find that\ny=\u2212\ng\n2\nu\n2\nx\n2\n.\n(8.19)\nThis relation between\ny\nand \nx\nmay be considered as the equation of the path of the moving ball. When this equation is plotted we obtain a curve that is called a parabola; any freely falling body that is shot out in any direction will travel in a parabola, as shown in Fig. 8\u20134."
+            },
+            {
+                "type": "math",
+                "data": "u"
+            },
+            {
+                "type": "math",
+                "data": "\u2212g"
+            },
+            {
+                "type": "math",
+                "data": "dx/dt="
+            },
+            {
+                "type": "math",
+                "data": "v\nx\n="
+            },
+            {
+                "type": "math",
+                "data": "u"
+            },
+            {
+                "type": "math",
+                "data": "v\nx"
+            },
+            {
+                "type": "math",
+                "data": "x=ut,\n(8.17)"
+            },
+            {
+                "type": "math",
+                "data": "\u2212g"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "y=\u2212\n1\n2\ng\nt\n2\n.\n(8.18)"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "t"
+            },
+            {
+                "type": "math",
+                "data": "t=x/u"
+            },
+            {
+                "type": "math",
+                "data": "y=\u2212\ng\n2\nu\n2\nx\n2\n.\n(8.19)"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f08-04/f08-04_tc_big.svgz"
+            }
+        ]
+    }
+]

@@ -1,0 +1,1303 @@
+[
+    {
+        "input": "I_14",
+        "output": [
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-00/f14-00a.jpg"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-00/f14-00b.jpg"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-00/f14-00c.jpg"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-00/f14-00d.jpg"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-00/f14-00a.jpg"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-00/f14-00b.jpg"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-00/f14-00c.jpg"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-00/f14-00d.jpg"
+            },
+            {
+                "type": "text",
+                "data": "In the preceding chapter we have presented a great many new ideas and results that play a central role in physics. These ideas are so important that it seems worthwhile to devote a whole chapter to a closer examination of them. In the present chapter we shall not repeat the \u201cproofs\u201d or the specific tricks by which the results were obtained, but shall concentrate instead upon a discussion of the ideas themselves."
+            },
+            {
+                "type": "text",
+                "data": "In learning any subject of a technical nature where mathematics plays a role, one is confronted with the task of understanding and storing away in the memory a huge body of facts and ideas, held together by certain relationships which can be \u201cproved\u201d or \u201cshown\u201d to exist between them. It is easy to confuse the proof itself with the relationship which it establishes. Clearly, the important thing to learn and to remember is the relationship, not the proof. In any particular circumstance we can either say \u201cit can be shown that\u201d such and such is true, or we can show it. In almost all cases, the particular proof that is used is concocted, first of all, in such form that it can be written quickly and easily on the chalkboard or on paper, and so that it will be as smooth-looking as possible. Consequently, the proof may look deceptively simple, when in fact, the author might have worked for hours trying different ways of calculating the same thing until he has found the neatest way, so as to be able to show that it can be shown in the shortest amount of time! The thing to be remembered, when seeing a proof, is not the proof itself, but rather that it can be shown that such and such is true. Of course, if the proof involves some mathematical procedures or \u201ctricks\u201d that one has not seen before, attention should be given not to the trick exactly, but to the mathematical idea involved."
+            },
+            {
+                "type": "text",
+                "data": "It is certain that in all the demonstrations that are made in a course such as this, not one has been remembered from the time when the author studied freshman physics. Quite the contrary: he merely remembers that such and such is true, and to explain how it can be shown he invents a demonstration at the moment it is needed. Anyone who has really learned a subject should be able to follow a similar procedure, but it is no use remembering the proofs. That is why, in this chapter, we shall avoid the proofs of the various statements made previously, and merely summarize the results."
+            },
+            {
+                "type": "text",
+                "data": "The first idea that has to be digested is work done by a force. The physical word \u201cwork\u201d is not the word in the ordinary sense of \u201cWorkers of the world unite!,\u201d but is a different idea. Physical work is expressed as \n\u222bF\u22c5ds\n, called \u201cthe line integral of\nF\ndot \nds\n,\u201d which means that if the force, for instance, is in one direction and the object on which the force is working is displaced in a certain direction, then only the component of force in the direction of the displacement does any work. If, for instance, the force were constant and the displacement were a finite distance \n\u0394s\n, then the work done in moving the object through that distance is only the component of force along\n\u0394s\ntimes \n\u0394s\n. The rule is \u201cforce times distance,\u201d but we really mean only the component of force in the direction of the displacement times \n\u0394s\nor, equivalently, the component of displacement in the direction of force times \nF\n. It is evident that no work whatsoever is done by a force which is at right angles to the displacement."
+            },
+            {
+                "type": "math",
+                "data": "\u222bF\u22c5ds"
+            },
+            {
+                "type": "math",
+                "data": "F"
+            },
+            {
+                "type": "math",
+                "data": "ds"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "F"
+            },
+            {
+                "type": "text",
+                "data": "Now if the vector displacement \n\u0394s\nis resolved into components, in other words, if the actual displacement is \n\u0394s\nand we want to consider it effectively as a component of displacement \n\u0394x\nin the\nx\n-direction,\n\u0394y\nin the\ny\n-direction, and\n\u0394z\nin the\nz\n-direction, then the work done in carrying an object from one place to another can be calculated in three parts, by calculating the work done along \nx\n, along \ny\n, and along \nz\n. The work done in going along \nx\ninvolves only that component of force, namely \nF\nx\n, and so on, so the work is\nF\nx\n\u0394x+\nF\ny\n\u0394y+\nF\nz\n\u0394z\n. When the force is not constant, and we have a complicated curved motion, then we must resolve the path into a lot of little \n\u0394s\n\u2019s, add the work done in carrying the object along each \n\u0394s\n, and take the limit as \n\u0394s\ngoes to zero. This is the meaning of the \u201cline integral.\u201d"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394x"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "\u0394y"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "\u0394z"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "F\nx"
+            },
+            {
+                "type": "math",
+                "data": "F\nx\n\u0394x+\nF\ny\n\u0394y+\nF\nz\n\u0394z"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "math",
+                "data": "\u0394s"
+            },
+            {
+                "type": "text",
+                "data": "Everything we have just said is contained in the formula \nW=\u222bF\u22c5ds\n. It is all very well to say that it is a marvelous formula, but it is another thing to understand what it means, or what some of the consequences are."
+            },
+            {
+                "type": "math",
+                "data": "W=\u222bF\u22c5ds"
+            },
+            {
+                "type": "text",
+                "data": "The word \u201cwork\u201d in physics has a meaning so different from that of the word as it is used in ordinary circumstances that it must be observed carefully that there are some peculiar circumstances in which it appears not to be the same. For example, according to the physical definition of work, if one holds a hundred-pound weight off the ground for a while, he is doing no work. Nevertheless, everyone knows that he begins to sweat, shake, and breathe harder, as if he were running up a flight of stairs. Yet running upstairs is considered as doing work (in running downstairs, one gets work out of the world, according to physics), but in simply holding an object in a fixed position, no work is done. Clearly, the physical definition of work differs from the physiological definition, for reasons we shall briefly explore."
+            },
+            {
+                "type": "text",
+                "data": "It is a fact that when one holds a weight he has to do \u201cphysiological\u201d work. Why should he sweat? Why should he need to consume food to hold the weight up? Why is the machinery inside him operating at full throttle, just to hold the weight up? Actually, the weight could be held up with no effort by just placing it on a table; then the table, quietly and calmly, without any supply of energy, is able to maintain the same weight at the same height! The physiological situation is something like the following. There are two kinds of muscles in the human body and in other animals: one kind, called striated or skeletal muscle, is the type of muscle we have in our arms, for example, which is under voluntary control; the other kind, called smooth muscle, is like the muscle in the intestines or, in the clam, the greater adductor muscle that closes the shell. The smooth muscles work very slowly, but they can hold a \u201cset\u201d; that is to say, if the clam tries to close its shell in a certain position, it will hold that position, even if there is a very great force trying to change it. It will hold a position under load for hours and hours without getting tired because it is very much like a table holding up a weight, it \u201csets\u201d into a certain position, and the molecules just lock there temporarily with no work being done, no effort being generated by the clam. The fact that we have to generate effort to hold up a weight is simply due to the design of striated muscle. What happens is that when a nerve impulse reaches a muscle fiber, the fiber gives a little twitch and then relaxes, so that when we hold something up, enormous volleys of nerve impulses are coming in to the muscle, large numbers of twitches are maintaining the weight, while the other fibers relax. We can see this, of course: when we hold a heavy weight and get tired, we begin to shake. The reason is that the volleys are coming irregularly, and the muscle is tired and not reacting fast enough. Why such an inefficient scheme? We do not know exactly why, but evolution has not been able to develop fast smooth muscle. Smooth muscle would be much more effective for holding up weights because you could just stand there and it would lock in; there would be no work involved and no energy would be required. However, it has the disadvantage that it is very slow-operating."
+            },
+            {
+                "type": "text",
+                "data": "Returning now to physics, we may ask why we want to calculate the work done. The answer is that it is interesting and useful to do so, since the work done on a particle by the resultant of all the forces acting on it is exactly equal to the change in kinetic energy of that particle. That is, if an object is being pushed, it picks up speed, and\n\u0394(\nv\n2\n)=\n2\nm\nF\u22c5\u0394s.\n2"
+            },
+            {
+                "type": "math",
+                "data": "\u0394(\nv\n2\n)=\n2\nm\nF\u22c5\u0394s.\n2"
+            },
+            {
+                "type": "text",
+                "data": "Another interesting feature of forces and work is this: suppose that we have a sloping or a curved track, and a particle that must move along the track, but without friction. Or we may have a pendulum with a string and a weight; the string constrains the weight to move in a circle about the pivot point. The pivot point may be changed by having the string hit a peg, so that the path of the weight is along two circles of different radii. These are examples of what we call fixed, frictionless constraints."
+            },
+            {
+                "type": "text",
+                "data": "In motion with a fixed frictionless constraint, no work is done by the constraint because the forces of constraint are always at right angles to the motion. By the \u201cforces of constraint\u201d we mean those forces which are applied to the object directly by the constraint itself\u2014the contact force with the track, or the tension in the string."
+            },
+            {
+                "type": "text",
+                "data": "The forces involved in the motion of a particle on a slope moving under the influence of gravity are quite complicated, since there is a constraint force, a gravitational force, and so on. However, if we base our calculation of the motion on conservation of energy and the gravitational force alone, we get the right result. This seems rather strange, because it is not strictly the right way to do it\u2014we should use the resultant force. Nevertheless, the work done by the gravitational force alone will turn out to be the change in the kinetic energy, because the work done by the constraint part of the force is zero (Fig. 14\u20131)."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-01/f14-01_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "The important feature here is that if a force can be analyzed as the sum of two or more \u201cpieces\u201d then the work done by the resultant force in going along a certain curve is the sum of the works done by the various \u201ccomponent\u201d forces into which the force is analyzed. Thus if we analyze the force as being the vector sum of several effects, gravitational plus constraint forces, etc., or the\nx\n-component of all forces and the\ny\n-component of all forces, or any other way that we wish to split it up, then the work done by the net force is equal to the sum of the works done by all the parts into which we have divided the force in making the analysis."
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "text",
+                "data": "In nature there are certain forces, that of gravity, for example, which have a very remarkable property which we call \u201cconservative\u201d (no political ideas involved, it is again one of those \u201ccrazy words\u201d). If we calculate how much work is done by a force in moving an object from one point to another along some curved path, in general the work depends upon the curve, but in special cases it does not. If it does not depend upon the curve, we say that the force is a conservative force. In other words, if the integral of the force times the distance in going from position \n1\nto position \n2\nin Fig. 14\u20132 is calculated along curve \nA\nand then along \nB\n, we get the same number of joules, and if this is true for this pair of points on every curve, and if the same proposition works no matter which pair of points we use, then we say the force is conservative. In such circumstances, the work integral going from\n1\nto \n2\ncan be evaluated in a simple manner, and we can give a formula for the result. Ordinarily it is not this easy, because we also have to specify the curve, but when we have a case where the work does not depend on the curve, then, of course, the work depends only upon the positions of\n1\nand \n2\n."
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "A"
+            },
+            {
+                "type": "math",
+                "data": "B"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-02/f14-02_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "To demonstrate this idea, consider the following. We take a \u201cstandard\u201d point \nP\n, at an arbitrary location (Fig. 14\u20132). Then, the work line-integral from\n1\nto \n2\n, which we want to calculate, can be evaluated as the work done in going from\n1\nto \nP\nplus the work done in going from\nP\nto \n2\n, because the forces are conservative and the work does not depend upon the curve. Now, the work done in going from position \nP\nto a particular position in space is a function of that position in space. Of course it really depends on \nP\nalso, but we hold the arbitrary point \nP\nfixed permanently for the analysis. If that is done, then the work done in going from point \nP\nto point \n2\nis some function of the final position of \n2\n. It depends upon where \n2\nis; if we go to some other point we get a different answer."
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "text",
+                "data": "We shall call this function of position\n\u2212U(x,y,z)\n, and when we wish to refer to some particular point \n2\nwhose coordinates are \n(\nx\n2\n,\ny\n2\n,\nz\n2\n)\n, we shall write \nU(2)\n, as an abbreviation for \nU(\nx\n2\n,\ny\n2\n,\nz\n2\n)\n. The work done in going from point \n1\nto point \nP\ncan be written also by going the other way along the integral, reversing all the \nds\n\u2019s. That is, the work done in going from\n1\nto \nP\nis minus the work done in going from the point\nP\nto \n1\n:\n\u222b\nP\n1\nF\u22c5ds=\n\u222b\n1\nP\nF\u22c5(\u2212ds)=\u2212\n\u222b\n1\nP\nF\u22c5ds.\nP\n1\n1\nThus the work done in going from\nP\nto \n1\nis \n\u2212U(1)\n, and from\nP\nto \n2\nthe work is \n\u2212U(2)\n. Therefore the integral from\n1\nto \n2\nis equal to\n\u2212U(2)\nplus [\n\u2212U(1)\nbackwards], or \n+U(1)\u2212U(2)\n:\nU(1)=\u2212\n\u222b\n1\nP\nF\u22c5ds,U(2)=\u2212\n\u222b\n2\nP\nF\u22c5ds,\n\u222b\n2\n1\nF\u22c5ds=U(1)\u2212U(2).\n(14.1)\nThe quantity \nU(2)\u2212U(1)\nis called the change in the potential energy, and we call \nU\nthe potential energy. We shall say that when the object is located at position \n2\n, it has potential energy \nU(2)\nand at position \n1\nit has potential energy \nU(1)\n. If it is located at position \nP\n, it has zero potential energy. If we had used any other point, say \nQ\n, instead of \nP\n, it would turn out (and we shall leave it to you to demonstrate) that the potential energy is changed only by the addition of a constant. Since the conservation of energy depends only upon changes, it does not matter if we add a constant to the potential energy. Thus the point \nP\nis arbitrary."
+            },
+            {
+                "type": "math",
+                "data": "\u2212U(x,y,z)"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "(\nx\n2\n,\ny\n2\n,\nz\n2\n)"
+            },
+            {
+                "type": "math",
+                "data": "U(2)"
+            },
+            {
+                "type": "math",
+                "data": "U(\nx\n2\n,\ny\n2\n,\nz\n2\n)"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "ds"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "\u222b\nP\n1\nF\u22c5ds=\n\u222b\n1\nP\nF\u22c5(\u2212ds)=\u2212\n\u222b\n1\nP\nF\u22c5ds.\nP\n1\n1"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "\u2212U(1)"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "\u2212U(2)"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "\u2212U(2)"
+            },
+            {
+                "type": "math",
+                "data": "\u2212U(1)"
+            },
+            {
+                "type": "math",
+                "data": "+U(1)\u2212U(2)"
+            },
+            {
+                "type": "math",
+                "data": "U(1)=\u2212\n\u222b\n1\nP\nF\u22c5ds,U(2)=\u2212\n\u222b\n2\nP\nF\u22c5ds,\n\u222b\n2\n1\nF\u22c5ds=U(1)\u2212U(2).\n(14.1)"
+            },
+            {
+                "type": "math",
+                "data": "U(2)\u2212U(1)"
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "U(2)"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "U(1)"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "Q"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "text",
+                "data": "Now, we have the following two propositions: (1) that the work done by a force is equal to the change in kinetic energy of the particle, but (2) mathematically, for a conservative force, the work done is minus the change in a function \nU\nwhich we call the potential energy. As a consequence of these two, we arrive at the proposition that if only conservative forces act, the kinetic energy \nT\nplus the potential energy \nU\nremains constant:\nT+U=constant.\n(14.2)"
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "math",
+                "data": "T"
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "math",
+                "data": "T+U=constant.\n(14.2)"
+            },
+            {
+                "type": "text",
+                "data": "Let us now discuss the formulas for the potential energy for a number of cases. If we have a gravitational field that is uniform, if we are not going to heights comparable with the radius of the earth, then the force is a constant vertical force and the work done is simply the force times the vertical distance. Thus\nU(z)=mgz,\n(14.3)\nand the point \nP\nwhich corresponds to zero potential energy happens to be any point in the plane \nz=0\n. We could also have said that the potential energy is \nmg(z\u22126)\nif we had wanted to\u2014all the results would, of course, be the same in our analysis except that the value of the potential energy at \nz=0\nwould be \n\u22126mg\n. It makes no difference, because only differences in potential energy count."
+            },
+            {
+                "type": "math",
+                "data": "U(z)=mgz,\n(14.3)"
+            },
+            {
+                "type": "math",
+                "data": "P"
+            },
+            {
+                "type": "math",
+                "data": "z=0"
+            },
+            {
+                "type": "math",
+                "data": "mg(z\u22126)"
+            },
+            {
+                "type": "math",
+                "data": "z=0"
+            },
+            {
+                "type": "math",
+                "data": "\u22126mg"
+            },
+            {
+                "type": "text",
+                "data": "The energy needed to compress a linear spring a distance \nx\nfrom an equilibrium point is\nU(x)=\n1\n2\nk\nx\n2\n,\n(14.4)\nand the zero of potential energy is at the point \nx=0\n, the equilibrium position of the spring. Again we could add any constant we wish."
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "U(x)=\n1\n2\nk\nx\n2\n,\n(14.4)"
+            },
+            {
+                "type": "math",
+                "data": "x=0"
+            },
+            {
+                "type": "text",
+                "data": "The potential energy of gravitation for point masses\nM\nand \nm\n, a distance \nr\napart, is\nU(r)=\u2212GMm/r.\n(14.5)\nThe constant has been chosen here so that the potential is zero at infinity. Of course the same formula applies to electrical charges, because it is the same law:\nU(r)=\nq\n1\nq\n2\n/4\u03c0\n\u03f5\n0\nr.\n(14.6)"
+            },
+            {
+                "type": "math",
+                "data": "M"
+            },
+            {
+                "type": "math",
+                "data": "m"
+            },
+            {
+                "type": "math",
+                "data": "r"
+            },
+            {
+                "type": "math",
+                "data": "U(r)=\u2212GMm/r.\n(14.5)"
+            },
+            {
+                "type": "math",
+                "data": "U(r)=\nq\n1\nq\n2\n/4\u03c0\n\u03f5\n0\nr.\n(14.6)"
+            },
+            {
+                "type": "text",
+                "data": "Now let us actually use one of these formulas, to see whether we understand what it means. Question: How fast do we have to shoot a rocket away from the earth in order for it to leave? Solution: The kinetic plus potential energy must be a constant; when it \u201cleaves,\u201d it will be millions of miles away, and if it is just barely able to leave, we may suppose that it is moving with zero speed out there, just barely going. Let\na\nbe the radius of the earth, and\nM\nits mass. The kinetic plus potential energy is then initially given by \n1\n2\nm\nv\n2\n\u2212GmM/a\n. At the end of the motion the two energies must be equal. The kinetic energy is taken to be zero at the end of the motion, because it is supposed to be just barely drifting away at essentially zero speed, and the potential energy is\nGmM\ndivided by infinity, which is zero. So everything is zero on one side and that tells us that the square of the velocity must be \n2GM/a\n. But\nGM/\na\n2\nis what we call the acceleration of gravity,\ng\n. Thus\nv\n2\n=2ga.\n2"
+            },
+            {
+                "type": "math",
+                "data": "a"
+            },
+            {
+                "type": "math",
+                "data": "M"
+            },
+            {
+                "type": "math",
+                "data": "1\n2\nm\nv\n2\n\u2212GmM/a"
+            },
+            {
+                "type": "math",
+                "data": "GmM"
+            },
+            {
+                "type": "math",
+                "data": "2GM/a"
+            },
+            {
+                "type": "math",
+                "data": "GM/\na\n2"
+            },
+            {
+                "type": "math",
+                "data": "g"
+            },
+            {
+                "type": "math",
+                "data": "v\n2\n=2ga.\n2"
+            },
+            {
+                "type": "text",
+                "data": "At what speed must a satellite travel in order to keep going around the earth? We worked this out long ago and found that\nv\n2\n=GM/a\n. Therefore to go away from the earth, we need\n2\n\u2013\n\u221a\n times the velocity we need to just go around the earth near its surface. We need, in other words, twice as much energy (because energy goes as the square of the velocity) to leave the earth as we do to go around it. Therefore the first thing that was done historically with satellites was to get one to go around the earth, which requires a speed of five miles per second. The next thing was to send a satellite away from the earth permanently; this required twice the energy, or about seven miles per second."
+            },
+            {
+                "type": "math",
+                "data": "v\n2\n=GM/a"
+            },
+            {
+                "type": "math",
+                "data": "2\n\u2013\n\u221a"
+            },
+            {
+                "type": "text",
+                "data": "Now, continuing our discussion of the characteristics of potential energy, let us consider the interaction of two molecules, or two atoms, two oxygen atoms for instance. When they are very far apart, the force is one of attraction, which varies as the inverse seventh power of the distance, and when they are very close the force is a very large repulsion. If we integrate the inverse seventh power to find the work done, we find that the potential energy \nU\n, which is a function of the radial distance between the two oxygen atoms, varies as the inverse sixth power of the distance for large distances."
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-03/f14-03_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "If we sketch the curve of the potential energy \nU(r)\nas in Fig. 14\u20133, we thus start out at large\nr\nwith an inverse sixth power, but if we come in sufficiently near we reach a point \nd\nwhere there is a minimum of potential energy. The minimum of potential energy at \nr=d\nmeans this: if we start at \nd\nand move a small distance, a very small distance, the work done, which is the change in potential energy when we move this distance, is nearly zero, because there is very little change in potential energy at the bottom of the curve. Thus there is no force at this point, and so it is the equilibrium point. Another way to see that it is the equilibrium point is that it takes work to move away from \nd\nin either direction. When the two oxygen atoms have settled down, so that no more energy can be liberated from the force between them, they are in the lowest energy state, and they will be at this separation \nd\n. This is the way an oxygen molecule looks when it is cold. When we heat it up, the atoms shake and move farther apart, and we can in fact break them apart, but to do so takes a certain amount of work or energy, which is the potential energy difference between\nr=d\nand \nr=\u221e\n. When we try to push the atoms very close together the energy goes up very rapidly, because they repel each other."
+            },
+            {
+                "type": "math",
+                "data": "U(r)"
+            },
+            {
+                "type": "math",
+                "data": "r"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "r=d"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "r=d"
+            },
+            {
+                "type": "math",
+                "data": "r=\u221e"
+            },
+            {
+                "type": "text",
+                "data": "The reason we bring this out is that the idea of force is not particularly suitable for quantum mechanics; there the idea of energy is most natural. We find that although forces and velocities \u201cdissolve\u201d and disappear when we consider the more advanced forces between nuclear matter and between molecules and so on, the energy concept remains. Therefore we find curves of potential energy in quantum mechanics books, but very rarely do we ever see a curve for the force between two molecules, because by that time people who are doing analyses are thinking in terms of energy rather than of force."
+            },
+            {
+                "type": "text",
+                "data": "Next we note that if several conservative forces are acting on an object at the same time, then the potential energy of the object is the sum of the potential energies from each of the separate forces. This is the same proposition that we mentioned before, because if the force can be represented as a vector sum of forces, then the work done by the total force is the sum of the works done by the partial forces, and it can therefore be analyzed as changes in the potential energies of each of them separately. Thus the total potential energy is the sum of all the little pieces."
+            },
+            {
+                "type": "text",
+                "data": "We could generalize this to the case of a system of many objects interacting with one another, like Jupiter, Saturn, Uranus, etc., or oxygen, nitrogen, carbon, etc., which are acting with respect to one another in pairs due to forces all of which are conservative. In these circumstances the kinetic energy in the entire system is simply the sum of the kinetic energies of all of the particular atoms or planets or whatever, and the potential energy of the system is the sum, over the pairs of particles, of the potential energy of mutual interaction of a single pair, as though the others were not there. (This is really not true for molecular forces, and the formula is somewhat more complicated; it certainly is true for Newtonian gravitation, and it is true as an approximation for molecular forces. For molecular forces there is a potential energy, but it is sometimes a more complicated function of the positions of the atoms than simply a sum of terms from pairs.) In the special case of gravity, therefore, the potential energy is the sum, over all the pairs\ni\nand \nj\n, of \n\u2212G\nm\ni\nm\nj\n/\nr\nij\n, as was indicated in Eq. (13.14). Equation (13.14) expressed mathematically the following proposition: that the total kinetic energy plus the total potential energy does not change with time. As the various planets wheel about, and turn and twist and so on, if we calculate the total kinetic energy and the total potential energy we find that the total remains constant."
+            },
+            {
+                "type": "math",
+                "data": "i"
+            },
+            {
+                "type": "math",
+                "data": "j"
+            },
+            {
+                "type": "math",
+                "data": "\u2212G\nm\ni\nm\nj\n/\nr\nij"
+            },
+            {
+                "type": "text",
+                "data": "We have spent a considerable time discussing conservative forces; what about nonconservative forces? We shall take a deeper view of this than is usual, and state that there are no nonconservative forces! As a matter of fact, all the fundamental forces in nature appear to be conservative. This is not a consequence of Newton\u2019s laws. In fact, so far as Newton himself knew, the forces could be nonconservative, as friction apparently is. When we say friction apparently is, we are taking a modern view, in which it has been discovered that all the deep forces, the forces between the particles at the most fundamental level, are conservative."
+            },
+            {
+                "type": "text",
+                "data": "If, for example, we analyze a system like that great globular star cluster that we saw a picture of, with the thousands of stars all interacting, then the formula for the total potential energy is simply one term plus another term, etc., summed over all pairs of stars, and the kinetic energy is the sum of the kinetic energies of all the individual stars. But the globular cluster as a whole is drifting in space too, and, if we were far enough away from it and did not see the details, could be thought of as a single object. Then if forces were applied to it, some of those forces might end up driving it forward as a whole, and we would see the center of the whole thing moving. On the other hand, some of the forces can be, so to speak, \u201cwasted\u201d in increasing the kinetic or potential energy of the \u201cparticles\u201d inside. Let us suppose, for instance, that the action of these forces expands the whole cluster and makes the particles move faster. The total energy of the whole thing is really conserved, but seen from the outside with our crude eyes which cannot see the confusion of motions inside, and just thinking of the kinetic energy of the motion of the whole object as though it were a single particle, it would appear that energy is not conserved, but this is due to a lack of appreciation of what it is that we see. And that, it turns out, is the case: the total energy of the world, kinetic plus potential, is a constant when we look closely enough."
+            },
+            {
+                "type": "text",
+                "data": "When we study matter in the finest detail at the atomic level, it is not always easy to separate the total energy of a thing into two parts, kinetic energy and potential energy, and such separation is not always necessary. It is almost always possible to do it, so let us say that it is always possible, and that the potential-plus-kinetic energy of the world is constant. Thus the total potential-plus-kinetic energy inside the whole world is constant, and if the \u201cworld\u201d is a piece of isolated material, the energy is constant if there are no external forces. But as we have seen, some of the kinetic and potential energy of a thing may be internal, for instance the internal molecular motions, in the sense that we do not notice it. We know that in a glass of water everything is jiggling around, all the parts are moving all the time, so there is a certain kinetic energy inside, which we ordinarily may not pay any attention to. We do not notice the motion of the atoms, which produces heat, and so we do not call it kinetic energy, but heat is primarily kinetic energy. Internal potential energy may also be in the form, for instance, of chemical energy: when we burn gasoline energy is liberated because the potential energies of the atoms in the new atomic arrangement are lower than in the old arrangement. It is not strictly possible to treat heat as being pure kinetic energy, for a little of the potential gets in, and vice versa for chemical energy, so we put the two together and say that the total kinetic and potential energy inside an object is partly heat, partly chemical energy, and so on. Anyway, all these different forms of internal energy are sometimes considered as \u201clost\u201d energy in the sense described above; this will be made clearer when we study thermodynamics."
+            },
+            {
+                "type": "text",
+                "data": "As another example, when friction is present it is not true that kinetic energy is lost, even though a sliding object stops and the kinetic energy seems to be lost. The kinetic energy is not lost because, of course, the atoms inside are jiggling with a greater amount of kinetic energy than before, and although we cannot see that, we can measure it by determining the temperature. Of course if we disregard the heat energy, then the conservation of energy theorem will appear to be false."
+            },
+            {
+                "type": "text",
+                "data": "Another situation in which energy conservation appears to be false is when we study only part of a system. Naturally, the conservation of energy theorem will appear not to be true if something is interacting with something else on the outside and we neglect to take that interaction into account."
+            },
+            {
+                "type": "text",
+                "data": "In classical physics potential energy involved only gravitation and electricity, but now we have nuclear energy and other energies also. Light, for example, would involve a new form of energy in the classical theory, but we can also, if we want to, imagine that the energy of light is the kinetic energy of a photon, and then our formula (14.2) would still be right."
+            },
+            {
+                "type": "text",
+                "data": "We shall now discuss a few of the ideas associated with potential energy and with the idea of a field. Suppose we have two large objects\nA\nand \nB\nand a third very small one which is attracted gravitationally by the two, with some resultant force \nF\n. We have already noted in Chapter 12 that the gravitational force on a particle can be written as its mass,\nm\n, times another vector,\nC\n, which is dependent only upon the position of the particle:\nF=mC.\nF\nC\nWe can analyze gravitation, then, by imagining that there is a certain vector \nC\nat every position in space which \u201cacts\u201d upon a mass which we may place there, but which is there itself whether we actually supply a mass for it to \u201cact\u201d on or not.\nC\nhas three components, and each of those components is a function of \n(x,y,z)\n, a function of position in space. Such a thing we call a field, and we say that the objects\nA\nand \nB\ngenerate the field, i.e., they \u201cmake\u201d the vector \nC\n. When an object is put in a field, the force on it is equal to its mass times the value of the field vector at the point where the object is put."
+            },
+            {
+                "type": "math",
+                "data": "A"
+            },
+            {
+                "type": "math",
+                "data": "B"
+            },
+            {
+                "type": "math",
+                "data": "F"
+            },
+            {
+                "type": "math",
+                "data": "m"
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "math",
+                "data": "F=mC.\nF\nC"
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "math",
+                "data": "(x,y,z)"
+            },
+            {
+                "type": "math",
+                "data": "A"
+            },
+            {
+                "type": "math",
+                "data": "B"
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "text",
+                "data": "We can also do the same with the potential energy. Since the potential energy, the integral of \n(\u2212force)\u22c5(ds)\ncan be written as\nm\n times the integral of\n(\u2212field)\u22c5(ds)\n, a mere change of scale, we see that the potential energy \nU(x,y,z)\nof an object located at a point \n(x,y,z)\nin space can be written as \nm\ntimes another function which we may call the potential \n\u03a8\n. The integral \n\u222bC\u22c5ds=\u2212\u03a8\n, just as \n\u222bF\u22c5ds=\u2212U\n; there is only a scale factor between the two:\nU\n=\u2212\u222bF\u22c5ds\n=\u2212m\u222bC\u22c5ds=m\u03a8.\n(14.7)\nBy having this function \n\u03a8(x,y,z)\nat every point in space, we can immediately calculate the potential energy of an object at any point in space, namely,\nU(x,y,z)=m\u03a8(x,y,z)\n\u2014rather a trivial business, it seems. But it is not really trivial, because it is sometimes much nicer to describe the field by giving the value of \n\u03a8\neverywhere in space instead of having to give \nC\n. Instead of having to write three complicated components of a vector function, we can give instead the scalar function \n\u03a8\n. Furthermore, it is much easier to calculate \n\u03a8\nthan any given component of \nC\nwhen the field is produced by a number of masses, for since the potential is a scalar we merely add, without worrying about direction. Also, the field \nC\ncan be recovered easily from \n\u03a8\n, as we shall shortly see. Suppose we have point masses\nm\n1\n,\nm\n2\n, \u2026 at the points\n1\n,\n2\n, \u2026 and we wish to know the potential \n\u03a8\nat some arbitrary point \np\n. This is simply the sum of the potentials at \np\ndue to the individual masses taken one by one:\n\u03a8(p)=\n\u2211\ni\n\u2212\nG\nm\ni\nr\nip\n,i=1, 2, \u2026\n(14.8)"
+            },
+            {
+                "type": "math",
+                "data": "(\u2212force)\u22c5(ds)"
+            },
+            {
+                "type": "math",
+                "data": "m"
+            },
+            {
+                "type": "math",
+                "data": "(\u2212field)\u22c5(ds)"
+            },
+            {
+                "type": "math",
+                "data": "U(x,y,z)"
+            },
+            {
+                "type": "math",
+                "data": "(x,y,z)"
+            },
+            {
+                "type": "math",
+                "data": "m"
+            },
+            {
+                "type": "math",
+                "data": "\u03a8"
+            },
+            {
+                "type": "math",
+                "data": "\u222bC\u22c5ds=\u2212\u03a8"
+            },
+            {
+                "type": "math",
+                "data": "\u222bF\u22c5ds=\u2212U"
+            },
+            {
+                "type": "math",
+                "data": "U\n=\u2212\u222bF\u22c5ds\n=\u2212m\u222bC\u22c5ds=m\u03a8.\n(14.7)"
+            },
+            {
+                "type": "math",
+                "data": "\u03a8(x,y,z)"
+            },
+            {
+                "type": "math",
+                "data": "U(x,y,z)=m\u03a8(x,y,z)"
+            },
+            {
+                "type": "math",
+                "data": "\u03a8"
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "math",
+                "data": "\u03a8"
+            },
+            {
+                "type": "math",
+                "data": "\u03a8"
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "math",
+                "data": "\u03a8"
+            },
+            {
+                "type": "math",
+                "data": "m\n1"
+            },
+            {
+                "type": "math",
+                "data": "m\n2"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "\u03a8"
+            },
+            {
+                "type": "math",
+                "data": "p"
+            },
+            {
+                "type": "math",
+                "data": "p"
+            },
+            {
+                "type": "math",
+                "data": "\u03a8(p)=\n\u2211\ni\n\u2212\nG\nm\ni\nr\nip\n,i=1, 2, \u2026\n(14.8)"
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-04/f14-04_tc_big.svgz"
+            },
+            {
+                "type": "math",
+                "data": "a"
+            },
+            {
+                "type": "text",
+                "data": "In the last chapter we used this formula, that the potential is the sum of the potentials from all the different objects, to calculate the potential due to a spherical shell of matter by adding the contributions to the potential at a point from all parts of the shell. The result of this calculation is shown graphically in Fig. 14\u20134. It is negative, having the value zero at \nr=\u221e\nand varying as \n1/r\ndown to the radius \na\n, and then is constant inside the shell. Outside the shell the potential is \n\u2212Gm/r\n, where\nm\nis the mass of the shell, which is exactly the same as it would have been if all the mass were located at the center. But it is not everywhere exactly the same, for inside the shell the potential turns out to be \n\u2212Gm/a\n, and is a constant! When the potential is constant, there is no field, or when the potential energy is constant there is no force, because if we move an object from one place to another anywhere inside the sphere the work done by the force is exactly zero. Why? Because the work done in moving the object from one place to the other is equal to minus the change in the potential energy (or, the corresponding field integral is the change of the potential). But the potential energy is the same at any two points inside, so there is zero change in potential energy, and therefore no work is done in going between any two points inside the shell. The only way the work can be zero for all directions of displacement is that there is no force at all."
+            },
+            {
+                "type": "math",
+                "data": "r=\u221e"
+            },
+            {
+                "type": "math",
+                "data": "1/r"
+            },
+            {
+                "type": "math",
+                "data": "a"
+            },
+            {
+                "type": "math",
+                "data": "\u2212Gm/r"
+            },
+            {
+                "type": "math",
+                "data": "m"
+            },
+            {
+                "type": "math",
+                "data": "\u2212Gm/a"
+            },
+            {
+                "type": "text",
+                "data": "This gives us a clue as to how we can obtain the force or the field, given the potential energy. Let us suppose that the potential energy of an object is known at the position \n(x,y,z)\nand we want to know what the force on the object is. It will not do to know the potential at only this one point, as we shall see; it requires knowledge of the potential at neighboring points as well. Why? How can we calculate the\nx\n-component of the force? (If we can do this, of course, we can also find the\ny\n- and\nz\n-components, and we will then know the whole force.) Now, if we were to move the object a small distance \n\u0394x\n, the work done by the force on the object would be the\nx\n-component of the force times \n\u0394x\n, if\n\u0394x\nis sufficiently small, and this should equal the change in potential energy in going from one point to the other:\n\u0394W=\u2212\u0394U=\nF\nx\n\u0394x.\n(14.9)\nWe have merely used the formula \n\u222bF\u22c5ds=\u2212\u0394U\n, but for a very short path. Now we divide by \n\u0394x\nand so find that the force is\nF\nx\n=\u2212\u0394U/\u0394x.\n(14.10)"
+            },
+            {
+                "type": "math",
+                "data": "(x,y,z)"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "\u0394x"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "\u0394x"
+            },
+            {
+                "type": "math",
+                "data": "\u0394x"
+            },
+            {
+                "type": "math",
+                "data": "\u0394W=\u2212\u0394U=\nF\nx\n\u0394x.\n(14.9)"
+            },
+            {
+                "type": "math",
+                "data": "\u222bF\u22c5ds=\u2212\u0394U"
+            },
+            {
+                "type": "math",
+                "data": "\u0394x"
+            },
+            {
+                "type": "math",
+                "data": "F\nx\n=\u2212\u0394U/\u0394x.\n(14.10)"
+            },
+            {
+                "type": "text",
+                "data": "Of course this is not exact. What we really want is the limit of (14.10) as \n\u0394x\ngets smaller and smaller, because it is only exactly right in the limit of infinitesimal \n\u0394x\n. This we recognize as the derivative of \nU\nwith respect to \nx\n, and we would be inclined, therefore, to write \n\u2212dU/dx\n. But\nU\ndepends on\nx\n, \ny\n, and \nz\n, and the mathematicians have invented a different symbol to remind us to be very careful when we are differentiating such a function, so as to remember that we are considering that only \nx\nvaries, and\ny\nand \nz\ndo not vary. Instead of a \nd\nthey simply make a \u201cbackwards \n6\n,\u201d or \n\u2202\n. (A \n\u2202\nshould have been used in the beginning of calculus because we always want to cancel that \nd\n, but we never want to cancel a \n\u2202\n!) So they write \n\u2202U/\u2202x\n, and furthermore, in moments of duress, if they want to be very careful, they put a line beside it with a little \nyz\nat the bottom (\n\u2202U/\u2202x\n|\nyz\n), which means \u201cTake the derivative of \nU\nwith respect to \nx\n, keeping\ny\nand \nz\nconstant.\u201d Most often we leave out the remark about what is kept constant because it is usually evident from the context, so we usually do not use the line with the\ny\nand \nz\n. However, always use a \n\u2202\ninstead of a \nd\nas a warning that it is a derivative with some other variables kept constant. This is called a partial derivative; it is a derivative in which we vary only \nx\n."
+            },
+            {
+                "type": "math",
+                "data": "\u0394x"
+            },
+            {
+                "type": "math",
+                "data": "\u0394x"
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "\u2212dU/dx"
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "6"
+            },
+            {
+                "type": "math",
+                "data": "\u2202"
+            },
+            {
+                "type": "math",
+                "data": "\u2202"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "\u2202"
+            },
+            {
+                "type": "math",
+                "data": "\u2202U/\u2202x"
+            },
+            {
+                "type": "math",
+                "data": "yz"
+            },
+            {
+                "type": "math",
+                "data": "\u2202U/\u2202x\n|\nyz"
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "\u2202"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "text",
+                "data": "Therefore, we find that the force in the\nx\n-direction is minus the partial derivative of \nU\nwith respect to \nx\n:\nF\nx\n=\u2212\u2202U/\u2202x.\n(14.11)\nIn a similar way, the force in the\ny\n-direction can be found by differentiating \nU\nwith respect to \ny\n, keeping\nx\nand \nz\nconstant, and the third component, of course, is the derivative with respect to \nz\n, keeping\ny\nand \nx\nconstant:\nF\ny\n=\u2212\u2202U/\u2202y,\nF\nz\n=\u2212\u2202U/\u2202z.\n(14.12)\nThis is the way to get from the potential energy to the force. We get the field from the potential in exactly the same way:\nC\nx\n=\u2212\u2202\u03a8/\u2202x,\nC\ny\n=\u2212\u2202\u03a8/\u2202y,\nC\nz\n=\u2212\u2202\u03a8/\u2202z.\n(14.13)"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "F\nx\n=\u2212\u2202U/\u2202x.\n(14.11)"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "U"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "F\ny\n=\u2212\u2202U/\u2202y,\nF\nz\n=\u2212\u2202U/\u2202z.\n(14.12)"
+            },
+            {
+                "type": "math",
+                "data": "C\nx\n=\u2212\u2202\u03a8/\u2202x,\nC\ny\n=\u2212\u2202\u03a8/\u2202y,\nC\nz\n=\u2212\u2202\u03a8/\u2202z.\n(14.13)"
+            },
+            {
+                "type": "text",
+                "data": "Incidentally, we shall mention here another notation, which we shall not actually use for quite a while: Since \nC\nis a vector and has\nx\n-, \ny\n-, and \nz\n-components, the symbolized\n\u2202/\u2202x\n, \n\u2202/\u2202y\n, and \n\u2202/\u2202z\nwhich produce the\nx\n-, \ny\n-, and \nz\n-components are something like vectors. The mathematicians have invented a glorious new symbol,\n\u2207\n, called \u201cgrad\u201d or \u201cgradient\u201d, which is not a quantity but an operator that makes a vector from a scalar. It has the following \u201ccomponents\u201d: The\nx\n-component of this \u201cgrad\u201d is \n\u2202/\u2202x\n, the\ny\n-component is \n\u2202/\u2202y\n, and the\nz\n-component is \n\u2202/\u2202z\n, and then we have the fun of writing our formulas this way:\nF=\u2212\u2207U,C=\u2212\u2207\u03a8.\n(14.14)\nUsing\n\u2207\ngives us a quick way of testing whether we have a real vector equation or not, but actually Eqs. (14.14) mean precisely the same as Eqs. (14.11), (14.12) and (14.13); it is just another way of writing them, and since we do not want to write three equations every time, we just write \n\u2207U\ninstead."
+            },
+            {
+                "type": "math",
+                "data": "C"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "\u2202/\u2202x"
+            },
+            {
+                "type": "math",
+                "data": "\u2202/\u2202y"
+            },
+            {
+                "type": "math",
+                "data": "\u2202/\u2202z"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "\u2207"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "\u2202/\u2202x"
+            },
+            {
+                "type": "math",
+                "data": "y"
+            },
+            {
+                "type": "math",
+                "data": "\u2202/\u2202y"
+            },
+            {
+                "type": "math",
+                "data": "z"
+            },
+            {
+                "type": "math",
+                "data": "\u2202/\u2202z"
+            },
+            {
+                "type": "math",
+                "data": "F=\u2212\u2207U,C=\u2212\u2207\u03a8.\n(14.14)"
+            },
+            {
+                "type": "math",
+                "data": "\u2207"
+            },
+            {
+                "type": "math",
+                "data": "\u2207U"
+            },
+            {
+                "type": "text",
+                "data": "One more example of fields and potentials has to do with the electrical case. In the case of electricity the force on a stationary object is the charge times the electric field: \nF=qE\n. (In general, of course, the\nx\n-component of force in an electrical problem has also a part which depends on the magnetic field. It is easy to show from Eq. (12.11) that the force on a particle due to magnetic fields is always at right angles to its velocity, and also at right angles to the field. Since the force due to magnetism on a moving charge is at right angles to the velocity, no work is done by the magnetism on the moving charge because the motion is at right angles to the force. Therefore, in calculating theorems of kinetic energy in electric and magnetic fields we can disregard the contribution from the magnetic field, since it does not change the kinetic energy.) We suppose that there is only an electric field. Then we can calculate the energy, or work done, in the same way as for gravity, and calculate a quantity \n\u03d5\nwhich is minus the integral of \nE\u22c5ds\n, from the arbitrary fixed point to the point where we make the calculation, and then the potential energy in an electric field is just charge times this quantity \n\u03d5\n:\n\u03d5(r)=\u2212\u222bE\u22c5ds,\nU=q\u03d5."
+            },
+            {
+                "type": "math",
+                "data": "F=qE"
+            },
+            {
+                "type": "math",
+                "data": "x"
+            },
+            {
+                "type": "math",
+                "data": "\u03d5"
+            },
+            {
+                "type": "math",
+                "data": "E\u22c5ds"
+            },
+            {
+                "type": "math",
+                "data": "\u03d5"
+            },
+            {
+                "type": "math",
+                "data": "\u03d5(r)=\u2212\u222bE\u22c5ds,\nU=q\u03d5."
+            },
+            {
+                "type": "image",
+                "data": "https://www.feynmanlectures.caltech.edu/img/FLP_I/f14-05/f14-05_tc_big.svgz"
+            },
+            {
+                "type": "text",
+                "data": "Let us take, as an example, the case of two parallel metal plates, each with a surface charge of \n\u00b1\u03c3\nper unit area. This is called a parallel-plate capacitor. We found previously that there is zero force outside the plates and that there is a constant electric field between them, directed from\n+\nto \n\u2212\nand of magnitude \n\u03c3/\n\u03f5\n0\n(Fig. 14\u20135). We would like to know how much work would be done in carrying a charge from one plate to the other. The work would be the \n(force)\u22c5(ds)\nintegral, which can be written as charge times the potential value at plate \n1\nminus that at plate \n2\n:\nW=\n\u222b\n2\n1\nF\u22c5ds=q(\n\u03d5\n1\n\u2212\n\u03d5\n2\n).\n2\nWe can actually work out the integral because the force is constant, and if we call the separation of the plates \nd\n, then the integral is easy:\n\u222b\n2\n1\nF\u22c5ds=\nq\u03c3\n\u03f5\n0\n\u222b\n2\n1\ndx=\nq\u03c3d\n\u03f5\n0\n.\n2\n2\nThe difference in potential,\n\u0394\u03d5=\u03c3d/\n\u03f5\n0\n, is called the voltage difference, and \n\u03d5\nis measured in volts. When we say a pair of plates is charged to a certain voltage, what we mean is that the difference in electrical potential of the two plates is so-and-so many volts. For a capacitor made of two parallel plates carrying a surface charge \n\u00b1\u03c3\n, the voltage, or difference in potential, of the pair of plates is \n\u03c3d/\n\u03f5\n0\n."
+            },
+            {
+                "type": "math",
+                "data": "\u00b1\u03c3"
+            },
+            {
+                "type": "math",
+                "data": "+"
+            },
+            {
+                "type": "math",
+                "data": "\u2212"
+            },
+            {
+                "type": "math",
+                "data": "\u03c3/\n\u03f5\n0"
+            },
+            {
+                "type": "math",
+                "data": "(force)\u22c5(ds)"
+            },
+            {
+                "type": "math",
+                "data": "1"
+            },
+            {
+                "type": "math",
+                "data": "2"
+            },
+            {
+                "type": "math",
+                "data": "W=\n\u222b\n2\n1\nF\u22c5ds=q(\n\u03d5\n1\n\u2212\n\u03d5\n2\n).\n2"
+            },
+            {
+                "type": "math",
+                "data": "d"
+            },
+            {
+                "type": "math",
+                "data": "\u222b\n2\n1\nF\u22c5ds=\nq\u03c3\n\u03f5\n0\n\u222b\n2\n1\ndx=\nq\u03c3d\n\u03f5\n0\n.\n2\n2"
+            },
+            {
+                "type": "math",
+                "data": "\u0394\u03d5=\u03c3d/\n\u03f5\n0"
+            },
+            {
+                "type": "math",
+                "data": "\u03d5"
+            },
+            {
+                "type": "math",
+                "data": "\u00b1\u03c3"
+            },
+            {
+                "type": "math",
+                "data": "\u03c3d/\n\u03f5\n0"
+            }
+        ]
+    }
+]
